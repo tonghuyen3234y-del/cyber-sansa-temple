@@ -1,0 +1,20 @@
+{
+  "name": "sansa-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test server.test.mjs consultation/api.test.mjs consultation/wish.test.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/deepseek": "3.0.80",
+    "@orama/orama": "3.1.18",
+    "@sparkjsdev/spark": "2.4.0",
+    "@tweenjs/tween.js": "25.0.0",
+    "ai": "7.0.163",
+    "sirv": "3.0.2",
+    "three": "0.180.0",
+    "ws": "8.22.1"
+  }
+}

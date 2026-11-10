@@ -1,0 +1,60 @@
+.local-incense-flame {
+  margin: 12px 0 2px;
+  text-align: center;
+  font-size: 58px;
+  line-height: 1.2;
+  filter: grayscale(.85);
+  opacity: .55;
+  transition: opacity .45s ease, filter .45s ease;
+}
+.support-dialog.is-lit .local-incense-flame {
+  opacity: 1;
+  filter: drop-shadow(0 0 22px #e5a34e);
+}
+#local-incense-status {
+  min-height: 1.5em;
+  margin: 10px 0 0;
+  color: #5b604e;
+  text-align: center;
+  font-size: 13px;
+}
+
+#cyber-lang-switcher.cyber-lang-in-settings {
+  margin: 6px 0 14px;
+}
+#cyber-lang-switcher.cyber-lang-in-settings .cyber-lang-label {
+  display: flex;
+  justify-content: space-between;
+  min-height: 44px;
+  padding: 6px 12px;
+  border: 1px solid #8a806840;
+  border-radius: 12px;
+  background: transparent;
+  color: inherit;
+}
+#cyber-lang-switcher.cyber-lang-in-settings select {
+  appearance: auto;
+  min-height: 32px;
+  font-size: 14px;
+}
+
+@media (max-width: 350px) {
+  .game-entry-tools #game-room-name > span { display: none; }
+}
+.environment-settings { display: grid; gap: 0.45rem; margin-block: 1rem; }
+.environment-settings label { font-weight: 600; }
+.environment-settings select {
+  min-height: 2.75rem;
+  width: 100%;
+  padding: 0.4rem 0.65rem;
+  color: inherit;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: 0.45rem;
+  font: inherit;
+}
+.environment-settings p { margin: 0; font-size: 0.85rem; }
+
+.refinement-control { display:flex; align-items:center; gap:8px; min-height:44px; cursor:pointer; margin-top:12px; }
+.refinement-control input { width:18px; height:18px; accent-color:#667350; }
+#temple-refinement-status { font-size:12px; line-height:1.6; opacity:.8; }

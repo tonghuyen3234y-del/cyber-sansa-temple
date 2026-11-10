@@ -1,0 +1,341 @@
+.consultation-locator,
+.consultation-anchor {
+  position: fixed;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 42px;
+  padding: 0 13px;
+  border: 1px solid #f4e9cc50;
+  border-radius: 999px;
+  background: #302f25bf;
+  box-shadow: 0 4px 18px #17170e36, inset 0 1px #f8f2d918;
+  backdrop-filter: blur(10px);
+  color: #f4ecdb;
+  font: inherit;
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.consultation-locator {
+  right: max(24px, env(safe-area-inset-right));
+  bottom: max(27px, env(safe-area-inset-bottom));
+}
+.consultation-locator svg { width: 18px; height: 18px; }
+.consultation-locator:hover,
+.consultation-anchor:hover { background: #524a35ea; }
+.consultation-anchor { top: 0; left: 0; font-size: 12px; min-height: 36px; }
+.consultation-anchor[hidden],
+.consultation-locator[hidden],
+.consultation-dialog [hidden],
+.sansa-game.is-beading :is(.consultation-locator, .consultation-anchor),
+.sansa-game:not(.is-ready) .consultation-locator { display: none !important; }
+
+dialog.consultation-dialog {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  overflow: hidden;
+}
+.consultation-frame {
+  --seat-ink: #423e32;
+  --seat-soft: #655d4e;
+  --seat-line: #8a806842;
+  position: fixed;
+  inset: auto max(24px, env(safe-area-inset-right)) max(90px, env(safe-area-inset-bottom)) auto;
+  width: clamp(356px, 39vw, 610px);
+  max-width: none;
+  height: min(79dvh, 760px);
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  margin: 0;
+  box-sizing: border-box;
+  padding: 23px clamp(16px, 2vw, 27px);
+  border: 1px solid #f3e9d2d0;
+  border-radius: 24px;
+  background: #f3eee2f5;
+  color: var(--seat-ink);
+  box-shadow: 0 14px 46px #160f0b47;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.55;
+}
+dialog.consultation-dialog::backdrop { background: #24190d17; backdrop-filter: none; }
+.consultation-dialog .consultation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 10px;
+  margin: 0;
+}
+.consultation-dialog .consultation-header h2 {
+  margin: 0;
+  color: var(--seat-ink);
+  font-size: 22px;
+  letter-spacing: .08em;
+}
+.consultation-eyebrow {
+  margin: 0 0 2px;
+  color: var(--seat-soft);
+  font-size: 10px;
+  letter-spacing: .14em;
+}
+.consultation-dialog .dialog-close { min-width: 42px; min-height: 42px; }
+.consultation-tabs, .consultation-choices, .consultation-suggestions, .consultation-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.consultation-tabs { padding: 3px; margin-bottom: 12px; background: #dcd3c066; border-radius: 14px; }
+.consultation-dialog button { font-family: inherit; cursor: pointer; }
+.consultation-tabs button, .consultation-choices button, .consultation-suggestions button, .consultation-card-actions button:not(.solid-button) {
+  padding: 7px 10px;
+  min-height: 36px;
+  border: 1px solid var(--seat-line);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font-size: 12px;
+}
+.consultation-tabs button { flex: 1; border-color: transparent; border-radius: 11px; }
+.consultation-tabs button[aria-pressed="true"] { background: #faf5e8; box-shadow: 0 2px 8px #3d302414; }
+.consultation-choices button[aria-pressed="true"] { border-color: #75694a; background: #e9dfc8; color: #463b25; }
+.consultation-note, .consultation-status {
+  margin: 8px 0;
+  color: var(--seat-soft);
+  font-size: 12px;
+}
+.consultation-status:empty { display: none; }
+.consultation-log {
+  min-height: 70px;
+  padding: 8px;
+  background: transparent;
+}
+.consultation-message { padding: 8px 10px; margin: 5px 0; }
+.consultation-message.user {
+  width: fit-content;
+  max-width: 86%;
+  margin-left: auto;
+  border-radius: 16px 16px 4px 16px;
+  background: #e9dfc69c;
+}
+.consultation-message p, .consultation-reading { margin: 2px 0 4px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.consultation-message small, .consultation-sources { color: #65583d; font-size: 11px; }
+.consultation-sources { display: flex; flex-wrap: wrap; gap: 6px 10px; }
+.consultation-sources a { color: inherit; text-underline-offset: 3px; }
+.consultation-suggestions { margin: 8px 0; }
+.consultation-suggestions button { font-size: 11px; }
+.consultation-form { display: flex; align-items: end; gap: 8px; }
+.consultation-form button { white-space: nowrap; }
+.consultation-dialog textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-height: 46px;
+  box-sizing: border-box;
+  padding: 7px 10px;
+  border: 1px solid var(--seat-line);
+  border-radius: 11px;
+  background: #fcf8ee;
+  color: inherit;
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.4;
+  resize: vertical;
+}
+.consultation-question-label { display: block; margin: 10px 0 4px; font-size: 12px; }
+.consultation-question-label small { color: var(--seat-soft); }
+.consultation-card {
+  padding: 13px;
+  margin-top: 10px;
+  border-top: 1px solid var(--seat-line);
+}
+.consultation-card-top { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: #6b5a3e; }
+.consultation-card-top [data-grade] { padding: 2px 8px; border: 1px solid #9f4f3e80; border-radius: 5px; color: #804537; }
+.consultation-card h3 { margin: 4px 0; font-size: 19px; letter-spacing: .07em; }
+.consultation-card p { margin: 5px 0 10px; }
+.consultation-poem { color: #5e4830; font-family: 'Songti SC', 'Noto Serif CJK SC', serif; font-size: 16px; }
+.consultation-reading { padding-top: 8px; margin-top: 9px; border-top: 1px solid var(--seat-line); }
+.consultation-saved { display: grid; gap: 7px; color: var(--seat-soft); }
+.consultation-saved button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 46px;
+  padding: 7px 10px;
+  border: 1px solid var(--seat-line);
+  border-radius: 10px;
+  background: #faf3e2;
+  color: var(--seat-ink);
+  text-align: left;
+}
+.consultation-dialog button:disabled { opacity: .58; cursor: default; }
+.consultation-locator:focus-visible, .consultation-anchor:focus-visible,
+.consultation-dialog :is(button, textarea, a):focus-visible { outline: 2px solid #9b804e; outline-offset: 3px; }
+@media (max-width: 700px) {
+  .consultation-locator { right: max(12px, env(safe-area-inset-right)); bottom: max(82px, calc(env(safe-area-inset-bottom) + 77px)); }
+  .consultation-frame {
+    inset: auto 8px max(8px, env(safe-area-inset-bottom)) 8px;
+    width: auto;
+    height: min(calc(var(--consultation-height, 100dvh) - 18px), 58dvh);
+    padding: 13px;
+    border-radius: 20px;
+  }
+}
+body:has(.consultation-dialog[open]) :is(.consultation-locator, .consultation-anchor) { visibility: hidden; }
+.consultation-dialog .dialog-close { color: #5e5646; }
+
+.consultation-memory {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
+}
+.consultation-memory button, .consultation-link {
+  border: 0;
+  padding: 5px 1px;
+  min-height: 35px;
+  background: transparent;
+  color: var(--seat-soft);
+  font-size: 12px;
+  white-space: nowrap;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.consultation-next { margin-top: 8px; }
+.consultation-progress {
+  display: block;
+  width: 100%;
+  height: 7px;
+  margin-top: 7px;
+  accent-color: #92703f;
+}
+[data-intention-summary] {
+  max-height: 4.5em;
+  overflow: auto;
+  overflow-wrap: anywhere;
+}
+
+.consultation-frame [data-view] {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  min-height: 0;
+}
+.consultation-scroll {
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  min-height: 0;
+}
+.consultation-composer { padding-top: 8px; }
+.consultation-composer textarea { resize: none; }
+.consultation-gesture-hint {
+  color: #65583d;
+  padding: 8px 10px;
+  margin: 9px 0 0;
+  background: #e8dfca;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.consultation-poem, .consultation-card [data-meaning] { white-space: pre-line; }
+
+dialog.consultation-dialog[open] { animation: none; }
+
+.consultation-composer {
+  margin-top: 9px;
+  padding: 5px 7px;
+  align-items: center;
+  border: 1px solid #8a80684d;
+  border-radius: 17px;
+  background: #fcf8ef;
+}
+.consultation-composer textarea { border: 0; background: transparent; }
+.consultation-composer .solid-button { min-height: 40px; }
+
+.consultation-prop-stage {
+  position: relative;
+  height: clamp(210px, 30dvh, 312px);
+  border-radius: 17px;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 59%, #d2b88b66 0%, #e9dec633 56%, #fff8ec00 77%);
+}
+.consultation-prop-stage canvas, .consultation-reveal-prop canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.consultation-grip {
+  position: absolute;
+  inset: 0;
+  touch-action: none;
+  cursor: grab;
+}
+.consultation-grip:active { cursor: grabbing; }
+.consultation-grip:focus-visible {
+  outline: 2px solid #97794a;
+  outline-offset: -5px;
+  border-radius: 15px;
+}
+.consultation-gesture-hint {
+  padding: 0;
+  background: transparent;
+  text-align: center;
+}
+.consultation-preview-note { text-align: center; color: var(--seat-soft); padding: 16px; }
+
+#game-world { transition: filter 360ms ease; }
+body:has(.consultation-reveal:not([hidden])) #game-world { filter: blur(5px); }
+.consultation-frame[inert] { filter: blur(2px); }
+.consultation-reveal {
+  position: fixed;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: radial-gradient(ellipse at center, #271d177d 0%, #201a1299 75%);
+}
+.consultation-reveal-sheet {
+  box-sizing: border-box;
+  width: min(380px, 92vw);
+  max-height: calc(100dvh - 32px);
+  padding: 0 20px 20px;
+  overflow: auto;
+  color: #f7ebce;
+  text-align: center;
+  text-shadow: 0 1px 7px #201508a8;
+}
+.consultation-reveal-prop {
+  height: min(34dvh, 295px);
+  overflow: visible;
+  background: radial-gradient(ellipse at center, #dfaf6544, #d4974200 66%);
+}
+.consultation-reveal-sheet .consultation-eyebrow { color: #e0c89d; }
+.consultation-reveal-sheet h3 { margin: 4px 0; font-size: 23px; font-weight: 600; }
+.consultation-reveal-sheet [data-reveal-poem] {
+  margin: 12px 0 17px;
+  font-family: 'Songti SC', serif;
+  font-size: 19px;
+  line-height: 1.65;
+  white-space: pre-line;
+}
+@media (max-width: 700px) {
+  .consultation-prop-stage { height: clamp(155px, 26dvh, 224px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  #game-world { transition: none; }
+}

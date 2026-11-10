@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#24251f">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="赛博山寺">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="在线 3D 山寺。与同堂访客合掌、礼佛、拨念珠。">
+<title>赛博山寺 · Cyber Sansa</title>
+<link rel="canonical" href="/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="赛博山寺">
+<meta property="og:title" content="赛博山寺 · Cyber Sansa">
+<meta property="og:image" content="/og/sansa-simple-v1.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="赛博山寺">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="赛博山寺 · Cyber Sansa">
+<meta name="twitter:description" content="在线 3D 山寺 · 合掌、礼佛、念珠">
+<meta name="twitter:image" content="/og/sansa-simple-v1.png">
+<meta name="twitter:image:alt" content="赛博山寺">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preload" href="/fonts/SansaQuietUI-Core.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/game-CnPFo8Kj.css?v=20261104mui1" as="style">
+<link rel="stylesheet" href="/assets/game-CnPFo8Kj.css?v=20261104mui1" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/assets/game-CnPFo8Kj.css?v=20261104mui1"></noscript>
+<link rel="stylesheet" href="/assets/cyber-mobile-ui.css?v=20261104mui1">
+<script type="importmap">
+{
+  "imports": {
+    "@sparkjsdev/spark": "/node_modules/@sparkjsdev/spark/dist/spark.module.min.js",
+    "three": "/environment/three.js",
+    "three/addons/postprocessing/Pass.js": "/node_modules/three/examples/jsm/postprocessing/Pass.js",
+    "/node_modules/three/src/cameras/PerspectiveCamera.js": "/environment/three.js",
+    "/node_modules/three/src/core/BufferGeometry.js": "/environment/three.js",
+    "/node_modules/three/src/core/Object3D.js": "/environment/three.js",
+    "/node_modules/three/src/constants.js": "/environment/three.js",
+    "/node_modules/three/src/renderers/WebGLRenderTarget.js": "/environment/three.js",
+    "/node_modules/three/src/textures/DataArrayTexture.js": "/environment/three.js"
+  }
+}
+</script>
+<link rel="modulepreload" href="/assets/index-P9gestures.js?v=20261106marble1" crossorigin>
+
+<style>
+  .sansa-boot { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:14px; padding:24px; background:#eeece3; color:#4d5144; font-family:"Sansa Quiet UI",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif; text-align:center; }
+  .sansa-boot-mark { display:flex; margin-bottom:6px; color:#8a8068; }
+  .sansa-boot-mark svg { width:32px; height:32px; stroke-width:1; }
+  .sansa-boot h1 { margin:0; padding-left:5px; font-size:27px; font-weight:500; letter-spacing:5px; }
+  .sansa-boot p { margin:0; max-width:100%; color:#838677; font-size:12px; line-height:1.7; }
+  .sansa-boot-dot { width:10px; height:10px; margin-top:16px; border-radius:50%; background:#a99a7b; box-shadow:0 -26px #a99a7b,13px -22.5px #9f9174,22.5px -13px #95876c,26px 0 #8e8168,22.5px 13px #8a8068,13px 22.5px #857b64,0 26px #80765f,-13px 22.5px #7c725b,-22.5px 13px #786e57,-26px 0 #746a53,-22.5px -13px #70664f,-13px -22.5px #6c624b; animation:sansa-boot-beads 5.5s linear infinite; }
+  @keyframes sansa-boot-beads { to { transform:rotate(360deg); } }
+  .sansa-boot-retry { position:absolute; bottom:max(24px,env(safe-area-inset-bottom)); display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:0 16px; color:#64664f; font-size:13px; text-decoration:underline; text-underline-offset:3px; visibility:hidden; animation:boot-retry 0s 15s forwards; }
+  .sansa-boot-retry:focus-visible { outline:2px solid #988762; outline-offset:4px; }
+  .sansa-boot.is-error h1 { padding:0; font-size:21px; letter-spacing:0; }
+  .sansa-boot.is-error .sansa-boot-dot { display:none; }
+  .sansa-boot.is-error .sansa-boot-retry { position:static; visibility:visible; animation:none; }
+  @keyframes boot-breathe { 50% { opacity:.25; } }
+  @keyframes boot-retry { to { visibility:visible; } }
+  @media(prefers-reduced-motion:reduce) { .sansa-boot-dot { animation:none; box-shadow:none; width:4px; height:4px; margin-top:18px; background:#a99a7b; } }
+</style>
+  <script>
+  // CWV: yield so first pointer/click can paint before non-critical work.
+  window.__csYield=function(t){try{if(typeof scheduler!=="undefined"&&scheduler.postTask)return scheduler.postTask(t,{priority:"background"});}catch(e){}try{return void requestAnimationFrame(function(){setTimeout(t,0)})}catch(e){}setTimeout(t,0)};
+  </script>
+  <script src="/assets/i18n.js?v=20261106zh1" defer></script>
+  <script type="module" crossorigin src="/assets/index-P9gestures.js?v=20261106marble1"></script>
+<link rel="stylesheet" href="/assets/local.css?v=20261106marble1">
+<link rel="stylesheet" href="/consultation/style.css">
+<link rel="stylesheet" href="/consultation/wish.css">
+</head>
+<body>
+<div id="app">
+  <main id="sansa-boot" class="sansa-boot" role="status" aria-label="赛博山寺">
+    <span class="sansa-boot-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M2 11c5-1 8-4 10-7 2 3 5 6 10 7M4 12h16M7 13v7m10-7v7M4 20h16M10 15h4v5"/></svg></span>
+    <h1 id="sansa-boot-title">赛博山寺</h1>
+    <p id="sansa-boot-message">正在打开法堂…</p>
+    <span class="sansa-boot-dot" aria-hidden="true"></span>
+    <a class="sansa-boot-retry" href="">重新进入</a>
+  </main>
+</div>
+<noscript><style>.sansa-boot{display:none}body{background:#20251f}</style><main style="padding:3rem;max-width:36rem;margin:auto;color:#f5f1e8;font-family:sans-serif;line-height:1.8"><h1>赛博山寺 · Cyber Sansa</h1><p>在这里拨念珠、礼佛、歇脚。请开启浏览器的 JavaScript 以进入法堂。</p></main></noscript>
+<script src="/assets/cyber-mobile-ui.js?v=20261104mui1" defer></script>
+<script src="/assets/local-incense.js" defer></script>
+</body>
+</html>

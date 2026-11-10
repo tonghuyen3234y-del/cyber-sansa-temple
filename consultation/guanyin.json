@@ -1,0 +1,902 @@
+[
+  {
+    "number": 1,
+    "edition": "guanyin-ctc",
+    "title": "鍾離成道",
+    "grade": "上籤",
+    "poem": "天開地闢作良緣\n日吉時良萬物全\n若得此籤非小可\n人行中正帝王宣",
+    "meaning": "急速非速\n言來時值\n觀音降筆\n報覺君知",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 2,
+    "edition": "guanyin-ctc",
+    "title": "蘇秦不第",
+    "grade": "中籤",
+    "poem": "鯨魚未變守江湖\n不可昇騰更望高\n異日崢嶸身變化\n許君一躍跳龍門",
+    "meaning": "得忍且忍\n得耐且耐\n須待時至\n功名還在",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 3,
+    "edition": "guanyin-ctc",
+    "title": "董永賣身",
+    "grade": "下籤",
+    "poem": "臨風冒雨去還歸\n正是其身似燕兒\n啣得泥來欲作壘\n到頭壘壞復還泥",
+    "meaning": "千般用計\n晨昏不停\n誰知此事\n到底勞心",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 4,
+    "edition": "guanyin-ctc",
+    "title": "玉蓮會十朋",
+    "grade": "上籤",
+    "poem": "千年古鏡復重圓\n女再求夫男再婚\n自此門庭重攺換\n更添福祿在兒孫",
+    "meaning": "淘沙見金\n騎龍踏虎\n雖是勞心\n於中有補",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 5,
+    "edition": "guanyin-ctc",
+    "title": "劉晨遇仙",
+    "grade": "中籤",
+    "poem": "一錐鑿地要求泉\n努力求之得最難\n無意俄然遇知己\n相逢攜手上青天",
+    "meaning": "欲望心事\n西方可求\n不如莫動\n立地可謀",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 6,
+    "edition": "guanyin-ctc",
+    "title": "仁貴遇主",
+    "grade": "中籤",
+    "poem": "投身岩下飼於菟\n須是還他大丈夫\n拾得營謀誰可得\n通行天地此人無",
+    "meaning": "食用無富\n身清豈貧\n待時利祿\n權與概人",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 7,
+    "edition": "guanyin-ctc",
+    "title": "蘇娘走難",
+    "grade": "下籤",
+    "poem": "奔波阻隔重重險\n帶水拖泥去度山\n更望他鄉求用事\n千鄉萬里未回還",
+    "meaning": "退身可得\n進步為難\n只宜守舊\n莫望高攀",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 8,
+    "edition": "guanyin-ctc",
+    "title": "姚能遇仙",
+    "grade": "上籤",
+    "poem": "茂林松栢正興旺\n雨雪風霜總莫摧\n異日忽然成大用\n功名成就棟樑材",
+    "meaning": "路上亨通\n終身有功\n田蠶豐熟\n家道興隆",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 9,
+    "edition": "guanyin-ctc",
+    "title": "孔明點將",
+    "grade": "上籤",
+    "poem": "煩君勿作私心事\n此意偏宜說向公\n一片冰心光皎潔\n宛如皓月正當空",
+    "meaning": "心中正直\n理順法寬\n聖無私語\n終有分明",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 10,
+    "edition": "guanyin-ctc",
+    "title": "龐涓觀陣",
+    "grade": "中籤",
+    "poem": "石藏無價寶和珍\n只管他鄉外處尋\n宛如持燈更覓火\n不如收拾枉勞心",
+    "meaning": "姻緣會遇\n何事不成\n須無恨意\n眼前是真",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 11,
+    "edition": "guanyin-ctc",
+    "title": "書薦姜維",
+    "grade": "上籤",
+    "poem": "欲求勝事喜非常\n爭奈親姻日暫忙\n到頭畢竟成鹿箭\n貴人指引貴人鄉",
+    "meaning": "有意興變\n到底安然\n若問用事\n只近貴人",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 12,
+    "edition": "guanyin-ctc",
+    "title": "武吉遇師",
+    "grade": "上籤",
+    "poem": "否去泰來咫尺間\n漸教君子出於山\n若逢虎兔佳音信\n立志忙中事即閒",
+    "meaning": "蔴換得絲\n繫人雙足\n要見分明\n因禍得福",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 13,
+    "edition": "guanyin-ctc",
+    "title": "羅通拜師",
+    "grade": "上籤",
+    "poem": "自小生在富貴家\n眼前萬物總奢華\n蒙君賜紫金魚袋\n四海聲名定可誇",
+    "meaning": "囚人逢赦\n病遇良醫\n龍門得過\n名顯皇都",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 14,
+    "edition": "guanyin-ctc",
+    "title": "子牙棄官",
+    "grade": "上籤",
+    "poem": "宛如仙鶴出樊籠\n脫出樊籠路路通\n南北東西無障礙\n任君直上九霄中",
+    "meaning": "任意無虞\n路有亨通\n隨心自在\n逍遙自如",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 15,
+    "edition": "guanyin-ctc",
+    "title": "蘇秦不第",
+    "grade": "下籤",
+    "poem": "行人一口氣難吞\n卻有災事勿近前\n鳥被焚巢無所宿\n可尋深處穩安身",
+    "meaning": "若人得怨\n何時可伸\n好言不信\n守舊待時",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 16,
+    "edition": "guanyin-ctc",
+    "title": "葉夢熊朝帝",
+    "grade": "上籤",
+    "poem": "愁眉思慮暫時開\n啟出雲霄喜自來\n宛如糞土中藏玉\n良工一舉出塵埃",
+    "meaning": "得處無失\n損中有益\n小人逢凶\n君子順吉",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 17,
+    "edition": "guanyin-ctc",
+    "title": "曹操話梅止渴",
+    "grade": "中籤",
+    "poem": "莫聽閒言說是非\n晨昏只好念阿彌\n若將妄語為真實\n畫餅如何止得飢",
+    "meaning": "心中不定\n枉看經文\n恰似畫餅\n食也難吞",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 18,
+    "edition": "guanyin-ctc",
+    "title": "曹國舅為仙",
+    "grade": "上籤",
+    "poem": "金烏西墜兔東升\n日夜循環古至今\n僧道得知無不利\n士農工商各從心",
+    "meaning": "心中無事\n所作有功\n如弓上箭\n一發當中",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 19,
+    "edition": "guanyin-ctc",
+    "title": "子儀封王",
+    "grade": "中籤",
+    "poem": "急水灘頭放船歸\n風波作浪欲何為\n若要安然求穩靜\n等待浪靜過此危",
+    "meaning": "急水登船\n險處待時\n若問營謀\n時至可為",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 20,
+    "edition": "guanyin-ctc",
+    "title": "姜太公遇文王",
+    "grade": "上籤",
+    "poem": "當春久雨喜初晴\n玉兔金烏漸漸明\n舊事已成新事遂\n看看一跳過龍門",
+    "meaning": "神佛護持\n有災無危\n遂平生志\n到底榮歸",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 21,
+    "edition": "guanyin-ctc",
+    "title": "李旦龍鳳配合",
+    "grade": "上籤",
+    "poem": "陰陽道合總由天\n女嫁男婚豈偶然\n但見龍蛇相會合\n熊羆入夢喜團圓",
+    "meaning": "謀望從心\n婚姻孕男\n資財進益\n更利田蠶",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 22,
+    "edition": "guanyin-ctc",
+    "title": "六郎逢救",
+    "grade": "中籤",
+    "poem": "旱時田裏皆枯槁\n謝天甘雨落淋淋\n花果草木皆潤澤\n始知一雨值千金",
+    "meaning": "田蠶倍熟\n命運漸來\n病遇良醫\n行人便回",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 23,
+    "edition": "guanyin-ctc",
+    "title": "懷德招親",
+    "grade": "中籤",
+    "poem": "欲攀仙桂入蟾宮\n豈慮天門不任君\n忽遇一朝音信好\n高人自送嶺頭雲",
+    "meaning": "商賈利益\n行藏無危\n病安訟遂\n儘可施為",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 24,
+    "edition": "guanyin-ctc",
+    "title": "殷郊遇師",
+    "grade": "下籤",
+    "poem": "不成理論不成家\n水性癡人似落花\n若問君恩須得力\n到頭方見事如麻",
+    "meaning": "是非莫說\n必須仔細\n心正理直\n方免災危",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 25,
+    "edition": "guanyin-ctc",
+    "title": "姚能受職",
+    "grade": "中籤",
+    "poem": "過了憂危事幾重\n從今再立永無空\n寬心自有寬心計\n得遇高人立大功",
+    "meaning": "訟終有理\n病得安痊\n出入求謀\n古井逢泉",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 26,
+    "edition": "guanyin-ctc",
+    "title": "鍾馗得道",
+    "grade": "中籤",
+    "poem": "上下傳來事轉虛\n天邊接得一封書\n書中許我功名遂\n直到終時亦是虛",
+    "meaning": "目下心煩\n求閒不閒\n欲望功名\n守舊身安",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 27,
+    "edition": "guanyin-ctc",
+    "title": "劉基諫主",
+    "grade": "中籤",
+    "poem": "一謀一用一番思\n慮後思前不敢為\n時到貴人相助力\n如山牆立可安居",
+    "meaning": "改舊成新\n寒花遇春\n從前阻滯\n今得稱心",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 28,
+    "edition": "guanyin-ctc",
+    "title": "包公尋李后",
+    "grade": "中籤",
+    "poem": "東邊月上正嬋娟\n頃刻雲遮亦暗存\n或有圓時還有缺\n更言非者亦閒言",
+    "meaning": "浮雲遮月\n不須疑惑\n等待雲收\n便見明月",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 29,
+    "edition": "guanyin-ctc",
+    "title": "趙子龍救阿斗",
+    "grade": "上籤",
+    "poem": "寶劍出匣耀光明\n在匣全然不染塵\n今得貴人攜出現\n有威有勢眾人欽",
+    "meaning": "寶劍出匣\n光輝萬里\n貴人指引\n無不歡喜",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 30,
+    "edition": "guanyin-ctc",
+    "title": "棋盤大會",
+    "grade": "中籤",
+    "poem": "勸君切莫向他求\n似鶴飛來暗箭投\n若去採薪蛇在草\n恐遭毒口也憂愁",
+    "meaning": "閉口合齒\n他事莫理\n若有虧心\n到頭害己",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 31,
+    "edition": "guanyin-ctc",
+    "title": "佛印會東坡",
+    "grade": "中籤",
+    "poem": "清閒無憂靜處坐\n飽後吃茶時坐卧\n放下身心不用忙\n必定不招冤與禍",
+    "meaning": "守舊安然\n叩問神仙\n直待時來\n事亦偶然",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 32,
+    "edition": "guanyin-ctc",
+    "title": "劉備求賢",
+    "grade": "中籤",
+    "poem": "前程杳杳定無疑\n石中藏玉有誰知\n一朝良匠分明剖\n始覺安然碧玉奇",
+    "meaning": "寶在石中\n異人少知\n直待分明\n儘可施為",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 33,
+    "edition": "guanyin-ctc",
+    "title": "咬金聘仁貴",
+    "grade": "中籤",
+    "poem": "內藏無價寶和珍\n得玉何須外界尋\n不如等待高人識\n寬心猶且更寬心",
+    "meaning": "內藏金玉\n不須外尋\n遇貴指引\n不須勞心",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 34,
+    "edition": "guanyin-ctc",
+    "title": "桃園結義",
+    "grade": "中籤",
+    "poem": "行藏出入禮義恭\n言必忠良信必聰\n心事了然俱靜徹\n光明紅日正當中",
+    "meaning": "心中無事\n秋水澄清\n不須疑惑\n事自然成",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 35,
+    "edition": "guanyin-ctc",
+    "title": "唐僧取經",
+    "grade": "中籤",
+    "poem": "衣冠重整舊家風\n道是無窮卻有功\n掃卻當途荊棘刺\n三人若議事和同",
+    "meaning": "不用憂疑\n自有佳期\n若問前程\n前路可宜",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 36,
+    "edition": "guanyin-ctc",
+    "title": "湘子遇賓",
+    "grade": "中籤",
+    "poem": "眼前病訟不須憂\n實地資財儘可求\n恰似猿猴今鎖脫\n自歸山洞去來遊",
+    "meaning": "脫除了事\n且自寬心\n待得時來\n正路堪尋",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 37,
+    "edition": "guanyin-ctc",
+    "title": "李靖歸山",
+    "grade": "中籤",
+    "poem": "欲待身安運泰時\n風中燈燭不相宜\n不如收拾深堂坐\n庶免光搖靜處期",
+    "meaning": "靜處安身\n待命守時\n動惹非福\n守舊無疑",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 38,
+    "edition": "guanyin-ctc",
+    "title": "何文秀遇難",
+    "grade": "下籤",
+    "poem": "月照天書靜處期\n忽遭雲霧又昏迷\n寬心祈待雲霞散\n此時更改好施為",
+    "meaning": "家道憂凶\n人口有災\n祈福保慶\n猶恐破財",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 39,
+    "edition": "guanyin-ctc",
+    "title": "姜女尋夫",
+    "grade": "下籤",
+    "poem": "天邊消息實難思\n切莫多心望強求\n若把石頭磨作鏡\n曾知枉費己工夫",
+    "meaning": "千般用計\n枉費工夫\n不如守舊\n着甚來由",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 40,
+    "edition": "guanyin-ctc",
+    "title": "武則天登位",
+    "grade": "中籤",
+    "poem": "紅輪西墜兔東昇\n陰長陽消百事亨\n若是女人宜望用\n增添財祿福其心",
+    "meaning": "陰利女人\n不宜男子\n若是求謀\n先凶後吉",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 41,
+    "edition": "guanyin-ctc",
+    "title": "董卓收呂布",
+    "grade": "中籤",
+    "poem": "無限好言君記取\n卻為認賊將作子\n莫貪眼下有些甜\n更慮他年萬樣苦",
+    "meaning": "只這一着\n君子莫錯\n牢記在心\n不生寂寞",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 42,
+    "edition": "guanyin-ctc",
+    "title": "目蓮見母",
+    "grade": "上籤",
+    "poem": "君皇聖后總為恩\n復待祈禳無損增\n一切有情皆受用\n人間天上得期亨",
+    "meaning": "天皇恩降\n始終莫忘\n晨昏禮念\n可宜燒香",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 43,
+    "edition": "guanyin-ctc",
+    "title": "行者得道",
+    "grade": "上籤",
+    "poem": "天地變通萬物全\n自榮自養自安然\n森羅萬象皆精彩\n事事如心謝聖賢",
+    "meaning": "天生萬物\n謀望皆通\n福德相助\n瑞氣匆匆",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 44,
+    "edition": "guanyin-ctc",
+    "title": "姜維鄧艾鬥陣",
+    "grade": "中籤",
+    "poem": "棋逢敵手着相宜\n黑白盤中未決時\n皆因一着知勝敗\n須教自有好推宜",
+    "meaning": "欲求心事\n恰如圍棋\n到底勝敗\n宜用心機",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 45,
+    "edition": "guanyin-ctc",
+    "title": "仁宗遇仙",
+    "grade": "上籤",
+    "poem": "溫柔自古勝剛強\n積善之門大吉昌\n若是有人占此卦\n宛如正渴遇瓊漿",
+    "meaning": "天地有感\n應驗非常\n佛神護佑\n得之莫忘",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 46,
+    "edition": "guanyin-ctc",
+    "title": "渭水釣魚",
+    "grade": "中籤",
+    "poem": "勸君耐守舊生涯\n把定心腸勿起歹\n直待有人輕着力\n枯枝老樹再生花",
+    "meaning": "靜心守舊\n事自成就\n動則多殃\n靜則無咎",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 47,
+    "edition": "guanyin-ctc",
+    "title": "梁灝登科",
+    "grade": "上籤",
+    "poem": "錦上添花色愈鮮\n運來祿馬喜雙全\n時人莫恨功名晚\n一舉登科四海傳",
+    "meaning": "守舊變新\n護有雙親\n遂平生志\n盡皆是命",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 48,
+    "edition": "guanyin-ctc",
+    "title": "韓信掛帥",
+    "grade": "上籤",
+    "poem": "鵾鳥秋來化作鵬\n好遊快樂喜飛騰\n翱翔萬里雲霄去\n餘外諸禽總不能",
+    "meaning": "鵾化為鵬\n萬禽不能\n桂香一折\n福祿自增",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 49,
+    "edition": "guanyin-ctc",
+    "title": "王祥求鯉",
+    "grade": "中籤",
+    "poem": "天寒地凍水成冰\n何須貪求取功名\n只好守己靜處坐\n待時興變自然明",
+    "meaning": "水結成冰\n冰消成水\n若是營謀\n到底如是",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 50,
+    "edition": "guanyin-ctc",
+    "title": "陶朱歸五湖",
+    "grade": "中籤",
+    "poem": "五湖四海任君行\n高掛帆蓬自在撑\n若得順風隨即至\n滿船寶貝喜層層",
+    "meaning": "自在優悠\n不須着力\n財祿重重\n無不欣美",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 51,
+    "edition": "guanyin-ctc",
+    "title": "孔明入川",
+    "grade": "上籤",
+    "poem": "夏日炎天日最長\n人人愁熱悶非常\n天地也解知人意\n薰風拂拂自然涼",
+    "meaning": "進退莫疑\n自有佳期\n營謀用度\n不須妄為",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 52,
+    "edition": "guanyin-ctc",
+    "title": "太白醉撈明月",
+    "grade": "下籤",
+    "poem": "水中捉月費工夫\n費盡工夫卻又無\n莫說閒言並亂語\n枉勞心力也難圖",
+    "meaning": "言語難思\n費力勞心\n宅中憂惱\n待遇貴人",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 53,
+    "edition": "guanyin-ctc",
+    "title": "劉備招親",
+    "grade": "上籤",
+    "poem": "失意翻成得意時\n龍吟虎嘯兩相宜\n青天自有通霄路\n許我功名再有期",
+    "meaning": "教去即去\n教住即住\n自有亨通\n到頭必利",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 54,
+    "edition": "guanyin-ctc",
+    "title": "馬超追曹",
+    "grade": "下籤",
+    "poem": "夢中得寶醒來無\n自謂南山只是鋤\n若問婚姻並問病\n別尋條路為相扶",
+    "meaning": "物在水中\n形影短長\n皆由分定\n不用商量",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 55,
+    "edition": "guanyin-ctc",
+    "title": "周武王登位",
+    "grade": "上籤",
+    "poem": "父賢傳子子傳孫\n衣食豐隆只靠天\n堂上椿萱人快樂\n飢飧渴飲睏時眠",
+    "meaning": "接竹引泉\n流傳不絕\n君子謀望\n無不欣悅",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 56,
+    "edition": "guanyin-ctc",
+    "title": "祿山謀反",
+    "grade": "中籤",
+    "poem": "灘小石溪流水響\n風清明月貴人忙\n路須借問何方去\n管取林中花草香",
+    "meaning": "營謀用事\n勞心費力\n守舊待時\n凡事大吉",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 57,
+    "edition": "guanyin-ctc",
+    "title": "董仲尋親",
+    "grade": "上籤",
+    "poem": "說是說非風過耳\n好衣好祿自然豐\n君莫記取當年事\n汝意還如我意同",
+    "meaning": "所作謀望\n皆大歡喜\n從公用力\n如子逢娘",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 58,
+    "edition": "guanyin-ctc",
+    "title": "文王問卜",
+    "grade": "中籤",
+    "poem": "直言說話君須記\n莫在他鄉求別藝\n切須守己舊生涯\n除是其餘都不利",
+    "meaning": "得住且住\n可取且踞\n莫宜別事\n只宜守舊",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 59,
+    "edition": "guanyin-ctc",
+    "title": "張良隱山",
+    "grade": "中籤",
+    "poem": "直上重樓去藏身\n四圍荊棘遶為林\n天高君命長和短\n得一番成失二人",
+    "meaning": "如醉飲酒\n只宜守舊\n直待時來\n無災無咎",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 60,
+    "edition": "guanyin-ctc",
+    "title": "赤壁鏖兵",
+    "grade": "下籤",
+    "poem": "抱薪救火火皆燃\n燒遍三千亦復然\n若問榮華並出入\n不如收拾枉勞心",
+    "meaning": "有千般計\n不如莫動\n一日相惹\n禍惹歸身",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 61,
+    "edition": "guanyin-ctc",
+    "title": "蘇小妹難夫",
+    "grade": "中籤",
+    "poem": "日上吟詩月下歌\n逢場作戲笑呵呵\n相逢會遇難藏避\n喝彩齊唱連哩囉",
+    "meaning": "佳人在屋\n吟唱詩曲\n一片歡心\n命中禍福",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 62,
+    "edition": "guanyin-ctc",
+    "title": "唐僧得道",
+    "grade": "中籤",
+    "poem": "晨昏全賴佛扶持\n須是逢危卻不危\n若得貴人相引處\n那時財帛亦相隨",
+    "meaning": "平平穩穩\n四方名顯\n改舊從新\n亦無凶險",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 63,
+    "edition": "guanyin-ctc",
+    "title": "女媧氏煉石",
+    "grade": "下籤",
+    "poem": "昔日行船失了針\n今朝依舊海中尋\n若然尋得原針在\n也費工夫也費心",
+    "meaning": "福是祿基\n祿是福種\n說得分明\n切宜守謹",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 64,
+    "edition": "guanyin-ctc",
+    "title": "馬前覆水",
+    "grade": "下籤",
+    "poem": "遊魚卻在碧波池\n撞遭羅網四邊圍\n思量無計番身出\n事到頭來惹是非",
+    "meaning": "屋下安身\n禍從天降\n早覺先防\n免遭其殃",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 65,
+    "edition": "guanyin-ctc",
+    "title": "孫臏困龐涓",
+    "grade": "下籤",
+    "poem": "眼前歡喜未為歡\n亦不危時亦不安\n割肉成瘡為甚事\n不如守舊待時光",
+    "meaning": "知止則止\n知寬自寬\n割自身肉\n疾痛一般",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 66,
+    "edition": "guanyin-ctc",
+    "title": "霸王被困",
+    "grade": "下籤",
+    "poem": "路險馬羸人行急\n失群軍卒困相當\n灘高風浪船棹破\n日暮花殘天降霜",
+    "meaning": "守舊守舊\n安靜無咎\n不用求謀\n自在優遊",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 67,
+    "edition": "guanyin-ctc",
+    "title": "金星試竇兒",
+    "grade": "上籤",
+    "poem": "一條金線秤君心\n無減無增無重輕\n為人平生心正直\n文章全具藝光明",
+    "meaning": "心平正直\n到底清平\n只依本份\n天下太平",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 68,
+    "edition": "guanyin-ctc",
+    "title": "郭汾陽祝壽",
+    "grade": "上籤",
+    "poem": "門庭吉慶喜非常\n積善之門大吉昌\n婚姻田蠶諸事遂\n病逢妙藥即安康",
+    "meaning": "春深日暖\n百花自開\n事莫遲疑\n從人顯達",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 69,
+    "edition": "guanyin-ctc",
+    "title": "梅開二度",
+    "grade": "上籤",
+    "poem": "冬來嶺上一枝梅\n葉落枝枯總不催\n但得陽春消息至\n依然還我作花魁",
+    "meaning": "一箭射空\n當空不空\n待等春來\n彩在其中",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 70,
+    "edition": "guanyin-ctc",
+    "title": "李密反唐",
+    "grade": "下籤",
+    "poem": "朝朝恰似採花蜂\n飛出西南又走東\n春盡花殘無覓處\n此心不變舊行蹤",
+    "meaning": "終朝春色\n久雨不晴\n求謀動用\n不如安靜",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 71,
+    "edition": "guanyin-ctc",
+    "title": "文君訪相如",
+    "grade": "中籤",
+    "poem": "誰知蒼龍上九衢\n女子當年嫁二夫\n自是一弓架兩箭\n切恐龍馬上安居",
+    "meaning": "不出重重\n事由天命\n振放中開\n切宜謹守",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 72,
+    "edition": "guanyin-ctc",
+    "title": "王莽求賢",
+    "grade": "中籤",
+    "poem": "養蜂須用求他蜜\n只怕遭觸尾上針\n雖是眼前有異路\n暗裏深如荊棘林",
+    "meaning": "事須仔細\n不用強求\n結蜂採蜜\n有甚來由",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 73,
+    "edition": "guanyin-ctc",
+    "title": "陳橋兵變",
+    "grade": "上籤",
+    "poem": "春來雷震百蟲鳴\n番身一轉離泥中\n始知出入還來往\n一朝變化便成龍",
+    "meaning": "雷發時轉\n出入兩存\n一朝變化\n直到天門",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 74,
+    "edition": "guanyin-ctc",
+    "title": "秦敗擒三帥",
+    "grade": "下籤",
+    "poem": "似鵠飛來自入籠\n欲得翻身卻不通\n南北東西都難出\n此卦誠恐恨無窮",
+    "meaning": "進身不得\n退步為難\n低頭直去\n悉在其中",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 75,
+    "edition": "guanyin-ctc",
+    "title": "伍員夜出昭關",
+    "grade": "中籤",
+    "poem": "恰如抱虎過高山\n戰戰兢兢膽碎寒\n不覺忽然成好事\n切須保守一身安",
+    "meaning": "危危險險\n前程有阻\n若問求謀\n到底辛苦",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 76,
+    "edition": "guanyin-ctc",
+    "title": "洪武看牛",
+    "grade": "中籤",
+    "poem": "魚龍混雜意相同\n耐守深潭待運通\n不覺一朝頭聳出\n禹門一跳過龍宮",
+    "meaning": "雖有鎡基\n也要待時\n營謀自本\n切莫妄為",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 77,
+    "edition": "guanyin-ctc",
+    "title": "捧璧歸趙",
+    "grade": "中籤",
+    "poem": "夢中說得是多財\n聲名雲外總虛來\n水遠山遙難信實\n貴人指點笑顏開",
+    "meaning": "如夢說夢\n聲名莫望\n只待好時\n貴人指示",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 78,
+    "edition": "guanyin-ctc",
+    "title": "臨潼救駕",
+    "grade": "上籤",
+    "poem": "冷水未燒百沸湯\n不寒不熱有溫涼\n要行天下無他事\n為有身中百藝強",
+    "meaning": "囚人逢赦\n病遇良醫\n求財謀望\n貴人指示",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 79,
+    "edition": "guanyin-ctc",
+    "title": "暗扶倒銅旗",
+    "grade": "中籤",
+    "poem": "虛空結願保平安\n保得身安願不還\n莫忘神聖宜還了\n豈知神語莫輕慢",
+    "meaning": "人有我見\n心不用忙\n觀音指示\n切莫輕慢",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%83%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 80,
+    "edition": "guanyin-ctc",
+    "title": "智遠投軍",
+    "grade": "上籤",
+    "poem": "直上仙岩要學仙\n豈知一旦帝王宣\n青天日月常明照\n心正聲名四海傳",
+    "meaning": "有始有終\n莫向西東\n心中用事\n貴人重重",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 81,
+    "edition": "guanyin-ctc",
+    "title": "風送滕王閣",
+    "grade": "上籤",
+    "poem": "梧桐葉落秋將暮\n行客歸程去似飛\n謝得天公高着力\n順風船載寶珍歸",
+    "meaning": "心中取事\n天必從之\n營謀用事\n儘可施為",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 82,
+    "edition": "guanyin-ctc",
+    "title": "火燒葫蘆谷",
+    "grade": "中籤",
+    "poem": "炎炎烈火焰連天\n焰裏還生一朵蓮\n到底得成終不害\n依然生葉長根枝",
+    "meaning": "雖然逢險\n不損其身\n營謀用事\n皆遇貴人",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 83,
+    "edition": "guanyin-ctc",
+    "title": "李淵登位",
+    "grade": "中籤",
+    "poem": "譬若初三四五缺\n半無半有未圓全\n等待十五良宵夜\n到處光明到處圓",
+    "meaning": "守舊待時\n如月初出\n待等圓時\n無有不吉",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 84,
+    "edition": "guanyin-ctc",
+    "title": "莊子試妻",
+    "grade": "下籤",
+    "poem": "因名喪德如何事\n切恐吉中變化凶\n酒醉不知何處去\n青松影裏夢朦朧",
+    "meaning": "寒魚離水\n美中不足\n若問營謀\n不如莫起",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 85,
+    "edition": "guanyin-ctc",
+    "title": "韓文公遇雪",
+    "grade": "中籤",
+    "poem": "雲開霧罩山前路\n萬物圓中月再圓\n若得詩書沉夢醒\n貴人指引步天台",
+    "meaning": "老者用求\n春殘再開\n欲求名利\n晚遇橫財",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 86,
+    "edition": "guanyin-ctc",
+    "title": "商輅中三元",
+    "grade": "上籤",
+    "poem": "春來花發映陽台\n萬里車來進寶財\n若得禹門三級浪\n恰如平地一聲雷",
+    "meaning": "朝帝受職\n如貧得寶\n謀望從心\n卦中第一",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 87,
+    "edition": "guanyin-ctc",
+    "title": "咬金探地穴",
+    "grade": "中籤",
+    "poem": "人行半嶺日啣山\n峻嶺崖岩未可安\n仰望上天為護祐\n此身猶在太虛間",
+    "meaning": "鑿石見玉\n淘沙見金\n須要着力\n只是勞心",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 88,
+    "edition": "guanyin-ctc",
+    "title": "龐洪畏包公",
+    "grade": "中籤",
+    "poem": "木為一虎在當門\n須是有威不害人\n分明說是無妨事\n憂惱遲疑恐懼心",
+    "meaning": "爐頭點雪\n似耳邊風\n可宜作福\n後吉前凶",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 89,
+    "edition": "guanyin-ctc",
+    "title": "大看瓊花",
+    "grade": "上籤",
+    "poem": "出入營謀大吉昌\n似玉無瑕石裏藏\n若得貴人來指引\n斯時得寶喜風光",
+    "meaning": "如石藏玉\n貴人指示\n得寶稱心\n歡懷得意",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E5%85%AB%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 90,
+    "edition": "guanyin-ctc",
+    "title": "葦佩遇仙",
+    "grade": "上籤",
+    "poem": "忽然一信向天飛\n泰山寶貝滿船歸\n若問路途成好事\n前頭仍有貴人推",
+    "meaning": "若問功名\n前有貴人\n更添喜氣\n財祿豐盈",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E7%B1%A4/"
+  },
+  {
+    "number": 91,
+    "edition": "guanyin-ctc",
+    "title": "三英戰呂布",
+    "grade": "中籤",
+    "poem": "好展愁眉出眾來\n前途改變喜多財\n一條大路如天闊\n凡有施財盡暢懷",
+    "meaning": "一條大路\n可向前行\n心中用事\n只可向前",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E4%B8%80%E7%B1%A4/"
+  },
+  {
+    "number": 92,
+    "edition": "guanyin-ctc",
+    "title": "蔡卿報恩",
+    "grade": "上籤",
+    "poem": "自幼為商任設謀\n財祿盈豐不用求\n若是進身謀望事\n秀才出去狀元回",
+    "meaning": "自小至大\n無阻無礙\n作意營謀\n功名還在",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E4%BA%8C%E7%B1%A4/"
+  },
+  {
+    "number": 93,
+    "edition": "guanyin-ctc",
+    "title": "高君保招親",
+    "grade": "中籤",
+    "poem": "鸞鳳翔毛雨淋漓\n當時卻被雀兒欺\n終教一日雲開達\n依舊還君整羽衣",
+    "meaning": "小人日盛\n君子莫為\n只宜守己\n待時施為",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E4%B8%89%E7%B1%A4/"
+  },
+  {
+    "number": 94,
+    "edition": "guanyin-ctc",
+    "title": "伯牙訪友",
+    "grade": "下籤",
+    "poem": "君子莫聽小人為\n事若差池惹是非\n琴鳴須用知音聽\n守常安靜得依稀",
+    "meaning": "知音方許\n閒事莫理\n待得貴人\n無不歡喜",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E5%9B%9B%E7%B1%A4/"
+  },
+  {
+    "number": 95,
+    "edition": "guanyin-ctc",
+    "title": "曹丕稱帝",
+    "grade": "中籤",
+    "poem": "志氣功業在朝朝\n今將酒色不勝饒\n若見金雞報君語\n錢財福祿與君招",
+    "meaning": "志氣心勤\n守己莫遲\n金雞報語\n無不歡喜",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E4%BA%94%E7%B1%A4/"
+  },
+  {
+    "number": 96,
+    "edition": "guanyin-ctc",
+    "title": "竇燕山積善",
+    "grade": "上籤",
+    "poem": "巍巍寶塔不尋常\n八面玲瓏盡放光\n勸君立志勤頂禮\n作善蒼天降福祥",
+    "meaning": "這些福份\n眾人皆見\n不用心忙\n福德前現",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E5%85%AD%E7%B1%A4/"
+  },
+  {
+    "number": 97,
+    "edition": "guanyin-ctc",
+    "title": "六出祁山",
+    "grade": "中籤",
+    "poem": "當風點燭空疏影\n恍惚舖成楊李花\n累被兒童來收拾\n怎知只是自浮槎",
+    "meaning": "富貴在天\n貧窮是命\n不用求謀\n皆是前定",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E4%B8%83%E7%B1%A4/"
+  },
+  {
+    "number": 98,
+    "edition": "guanyin-ctc",
+    "title": "吉平遇難",
+    "grade": "下籤",
+    "poem": "出入求謀事宜遲\n只恐閒愁惹是非\n如鳥飛入羅網裏\n相逢能有幾多時",
+    "meaning": "守舊隨時\n待貴人至\n若問諸般\n主事定遲",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E5%85%AB%E7%B1%A4/"
+  },
+  {
+    "number": 99,
+    "edition": "guanyin-ctc",
+    "title": "陶三春掛帥",
+    "grade": "下籤",
+    "poem": "勒馬持鞭直過來\n半有憂危半有災\n恰似遭火焚燒屋\n天降時雨蕩成灰",
+    "meaning": "終身勞力\n莫管是非\n枷鎖臨身\n怨恨自至",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B9%9D%E5%8D%81%E4%B9%9D%E7%B1%A4/"
+  },
+  {
+    "number": 100,
+    "edition": "guanyin-ctc",
+    "title": "三教談道",
+    "grade": "下籤",
+    "poem": "佛神靈變與君知\n癡人說事轉昏迷\n老人求得靈籤去\n不如守舊待時來",
+    "meaning": "完滿靈籤\n盡報君知\n依舊勿動\n待等時至",
+    "sourceUrl": "https://www.ctc.org.hk/chim/%E8%A7%80%E9%9F%B3%E7%B1%A4-%E7%AC%AC%E4%B8%80%E7%99%BE%E7%B1%A4/"
+  }
+]

@@ -1,0 +1,321 @@
+/* 许愿树 · 与问心席同一套纸墨气质，但更安静一些。 */
+
+.wish-locator,
+.wish-anchor {
+  position: fixed;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 42px;
+  padding: 0 13px;
+  border: 1px solid #f4e9cc50;
+  border-radius: 999px;
+  background: #302f25bf;
+  box-shadow: 0 4px 18px #17170e36, inset 0 1px #f8f2d918;
+  backdrop-filter: blur(10px);
+  color: #f4ecdb;
+  font: inherit;
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.wish-locator {
+  right: max(24px, env(safe-area-inset-right));
+  bottom: calc(max(27px, env(safe-area-inset-bottom)) + 54px);
+}
+.wish-locator svg { width: 18px; height: 18px; }
+.wish-locator:hover,
+.wish-anchor:hover { background: #524a35ea; }
+.wish-anchor { top: 0; left: 0; font-size: 12px; min-height: 36px; }
+.wish-locator[hidden],
+.wish-anchor[hidden],
+.wish-dialog [hidden],
+.sansa-game.is-beading :is(.wish-locator, .wish-anchor),
+.sansa-game:not(.is-ready) .wish-locator { display: none !important; }
+body:has(.wish-dialog[open]) :is(.wish-locator, .wish-anchor) { visibility: hidden; }
+
+dialog.wish-dialog {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  overflow: hidden;
+}
+.wish-frame {
+  --wish-ink: #3f3a2f;
+  --wish-soft: #6a6152;
+  --wish-line: #8a806842;
+  --wish-paper: #f3eee2f5;
+  position: fixed;
+  inset: auto max(24px, env(safe-area-inset-right)) max(90px, env(safe-area-inset-bottom)) auto;
+  width: clamp(356px, 39vw, 610px);
+  height: min(79dvh, 760px);
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  margin: 0;
+  box-sizing: border-box;
+  padding: 23px clamp(16px, 2vw, 27px);
+  border: 1px solid #f3e9d2d0;
+  border-radius: 24px;
+  background: var(--wish-paper);
+  color: var(--wish-ink);
+  box-shadow: 0 14px 46px #160f0b47;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.wish-frame[inert] { filter: blur(2px); }
+dialog.wish-dialog::backdrop { background: #24190d17; }
+.wish-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 10px;
+}
+.wish-header h2 { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: .08em; }
+.wish-eyebrow {
+  margin: 0 0 2px;
+  color: var(--wish-soft);
+  font-size: 10px;
+  letter-spacing: .14em;
+}
+.wish-dialog .dialog-close { min-width: 42px; min-height: 42px; color: #5e5646; }
+.wish-dialog button { font-family: inherit; cursor: pointer; }
+.wish-dialog button:disabled { opacity: .55; cursor: default; }
+.wish-tabs {
+  display: flex;
+  gap: 6px;
+  padding: 3px;
+  margin-bottom: 12px;
+  background: #dcd3c066;
+  border-radius: 14px;
+}
+.wish-tabs button {
+  flex: 1;
+  min-height: 36px;
+  padding: 7px 10px;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  background: transparent;
+  color: inherit;
+  font-size: 12px;
+}
+.wish-tabs button[aria-pressed="true"] { background: #faf5e8; box-shadow: 0 2px 8px #3d302414; }
+.wish-view { display: grid; grid-template-rows: minmax(0, 1fr); min-height: 0; }
+.wish-scroll {
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  min-height: 0;
+  padding-bottom: 6px;
+}
+.wish-label { display: block; margin: 4px 0 2px; font-size: 15px; letter-spacing: .02em; }
+.wish-hint, .wish-note { margin: 2px 0 8px; color: var(--wish-soft); font-size: 12px; }
+.wish-dialog textarea,
+.wish-dialog input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--wish-line);
+  border-radius: 12px;
+  background: #fcf8ee;
+  color: inherit;
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.55;
+  resize: vertical;
+}
+.wish-dialog textarea { min-height: 104px; }
+.wish-dialog textarea::placeholder,
+.wish-dialog input::placeholder { color: #a2977f; }
+.wish-meta {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--wish-soft);
+}
+.wish-meta label { display: inline-flex; align-items: baseline; gap: 4px; }
+.wish-meta label small { color: #9a8f78; font-size: 10px; }
+.wish-meta input { padding: 7px 10px; font-size: 15px; }
+.wish-count { font-variant-numeric: tabular-nums; color: #8d8370; }
+.wish-count.is-full { color: #a05238; }
+.wish-error { min-height: 1.3em; margin: 6px 0 0; color: #9c4b33; font-size: 12px; }
+.wish-error:empty { min-height: 0; }
+.wish-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 6px; }
+.wish-actions .solid-button { margin-top: 0; }
+.wish-text-button {
+  min-height: 38px;
+  padding: 5px 2px;
+  border: 0;
+  background: transparent;
+  color: var(--wish-soft);
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* 落笔仪式 */
+.wish-ritual {
+  display: grid;
+  place-items: center;
+  gap: 4px;
+  padding: 8px 0 4px;
+  border-radius: 16px;
+  background: radial-gradient(ellipse at 50% 42%, #d2b88b4d 0%, #e9dec622 58%, #fff8ec00 78%);
+}
+.wish-ritual-plaque {
+  width: min(200px, 46vw);
+  height: min(264px, 40dvh);
+}
+.wish-ritual-plaque canvas { display: block; width: 100%; height: 100%; }
+.wish-ritual-note { margin: 0; color: var(--wish-soft); font-size: 12px; letter-spacing: .06em; }
+
+/* 心愿清单 */
+.wish-placards { display: grid; gap: 10px; }
+.wish-placard {
+  padding: 12px 13px;
+  border: 1px solid var(--wish-line);
+  border-radius: 14px;
+  background: #faf5e899;
+}
+.wish-placard.is-current { border-color: #b08d5280; box-shadow: inset 3px 0 #b08d52; }
+.wish-placard-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.wish-placard-head strong { font-size: 16px; letter-spacing: .12em; }
+.wish-placard-head small { color: #8b7f68; font-size: 11px; }
+.wish-placard-card { margin-top: 8px; padding-top: 8px; border-top: 1px dashed #b3a48266; }
+.wish-placard-card p { margin: 3px 0; font-size: 13.5px; }
+.wish-placard-text { margin: 6px 0 0; color: var(--wish-soft); font-size: 13px; }
+.wish-placard-detail { margin-top: 6px; }
+.wish-placard-detail summary {
+  width: fit-content;
+  color: var(--wish-soft);
+  font-size: 12px;
+  cursor: pointer;
+  text-underline-offset: 3px;
+}
+.wish-placard-detail[open] summary { margin-bottom: 4px; }
+.wish-placard-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
+.wish-placard-actions button {
+  min-height: 34px;
+  padding: 6px 11px;
+  border: 1px solid var(--wish-line);
+  border-radius: 999px;
+  background: #fdf9ef;
+  color: inherit;
+  font-size: 12px;
+}
+.wish-placard-actions button:hover { background: #f6efdf; }
+.wish-empty { margin: 14px 0; color: var(--wish-soft); font-size: 13px; }
+
+.wish-card-verse {
+  margin: 2px 0 6px;
+  color: #6d5330;
+  font-family: 'Songti SC', 'Noto Serif CJK SC', serif;
+  font-size: 15px;
+  letter-spacing: .1em;
+}
+
+/* 寄托卡片 */
+.wish-card-layer {
+  position: fixed;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: radial-gradient(ellipse at center, #271d1766 0%, #201a1285 78%);
+}
+.wish-card {
+  box-sizing: border-box;
+  width: min(420px, 94vw);
+  max-height: calc(100dvh - 32px);
+  padding: 18px 22px 20px;
+  overflow: auto;
+  border: 1px solid #e5d3ae4d;
+  border-radius: 20px;
+  background: linear-gradient(#2f261c, #292016);
+  color: #f4e6cd;
+  text-align: center;
+  box-shadow: 0 22px 60px #120c0680;
+}
+.wish-card .wish-eyebrow { color: #c9ab7e; letter-spacing: .22em; }
+.wish-card-prop { height: min(30dvh, 236px); margin: 2px 0 4px; }
+.wish-card-prop canvas { display: block; width: 100%; height: 100%; }
+.wish-card-verse {
+  margin: 2px 0 12px;
+  color: #e8c795;
+  font-family: 'Songti SC', 'Noto Serif CJK SC', serif;
+  font-size: clamp(17px, 4.4vw, 20px);
+  letter-spacing: .18em;
+  line-height: 1.5;
+}
+.wish-card-lines p {
+  margin: 0 0 9px;
+  color: #f1e3c8;
+  font-family: 'Songti SC', 'Noto Serif CJK SC', serif;
+  font-size: 15px;
+  line-height: 1.9;
+  letter-spacing: .02em;
+  opacity: 0;
+  transform: translateY(6px);
+  animation: wish-line-in 620ms cubic-bezier(.22,1,.36,1) forwards;
+}
+.wish-card-lines p:last-child { margin-bottom: 4px; }
+@keyframes wish-line-in { to { opacity: 1; transform: none; } }
+.wish-card-ref { margin: 10px 0 2px; color: #b8a482; font-size: 11.5px; line-height: 1.65; }
+.wish-card-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 14px; }
+.wish-card-actions .solid-button { margin-top: 0; background: #857a56; }
+.wish-card-actions button {
+  min-height: 40px;
+  padding: 9px 15px;
+  border: 1px solid #e5d3ae40;
+  border-radius: 999px;
+  background: transparent;
+  color: #f1e2c6;
+  font-size: 12.5px;
+}
+.wish-card-actions button:hover { background: #ffffff12; }
+.wish-card-actions .wish-text-button { color: #cdba99; border-color: transparent; }
+.wish-card-status { min-height: 1.2em; margin: 8px 0 0; color: #c9ab7e; font-size: 11.5px; }
+.wish-card-status:empty { min-height: 0; }
+
+.wish-dialog :is(button, textarea, input, summary, a):focus-visible,
+.wish-locator:focus-visible,
+.wish-anchor:focus-visible { outline: 2px solid #9b804e; outline-offset: 3px; }
+.wish-card :is(button, summary):focus-visible { outline: 2px solid #d8b782; outline-offset: 3px; }
+
+@media (max-width: 700px) {
+  .wish-locator {
+    right: max(12px, env(safe-area-inset-right));
+    bottom: calc(max(82px, calc(env(safe-area-inset-bottom) + 77px)) + 48px);
+  }
+  .wish-frame {
+    inset: auto 8px max(8px, env(safe-area-inset-bottom)) 8px;
+    width: auto;
+    height: min(calc(var(--wish-height, 100dvh) - 18px), 62dvh);
+    padding: 13px;
+    border-radius: 20px;
+  }
+  .wish-card { width: min(380px, 96vw); padding: 14px 16px 16px; }
+  .wish-card-prop { height: min(24dvh, 184px); }
+  .wish-placard-actions button { min-height: 38px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wish-card-lines p { animation: none; opacity: 1; transform: none; }
+  .wish-frame[inert] { filter: none; }
+}

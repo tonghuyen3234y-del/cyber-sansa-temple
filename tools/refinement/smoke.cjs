@@ -1,0 +1,22 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const assert=require('node:assert/strict'),fs=require('fs');
+(async()=>{const b=await chromium.launch({channel:'chrome',headless:true,args:['--use-gl=angle','--use-angle=metal']});try{
+const page=await b.newPage({viewport:{width:1280,height:850}});const errors=[];
+page.on('pageerror',e=>{errors.push(e.message);console.log('PAGE',e.message)});page.on('console',m=>{if(m.type()==='error')console.log('CONSOLE',m.text().slice(0,300))});
+await page.route('**/assets/game-B7kPresence.js*',async r=>{let x=await r.fetch();await r.fulfill({response:x,body:(await x.text()).replace('const world={','window.testTemple=this;const world={')})});
+await page.goto('http://127.0.0.1:4214/?refinement=off');await page.waitForFunction(()=>window.testTemple?.isReady,null,{timeout:60000});await page.waitForSelector('#temple-refinement:not(:disabled)',{timeout:60000,state:'attached'});await page.waitForSelector('.wish-locator');
+await page.evaluate(async()=>{await window.testTemple.sanctuary.completeGarden();window.originals=new Map();window.testTemple.scene.traverse(o=>{if(o.isMesh)window.originals.set(o,{geometry:o.geometry,skin:o.skeleton,material:o.material,roughness:[o.material].flat().map(m=>m.roughness)})});});
+async function toggle(on){await page.locator('#temple-refinement').evaluate((el,on)=>{el.checked=on;el.dispatchEvent(new Event('change'));},on);await page.waitForFunction(on=>document.querySelector('#game-world canvas').dataset.refinement===(on?'refined':'original'),on);}
+await toggle(true);
+console.log('STATUS',await page.locator('#temple-refinement-status').innerText());
+const check=await page.evaluate(()=>{let replaced=0,skins=0,broken=0;for(const [o,v] of window.originals){if(o.geometry!==v.geometry)replaced++;if(o.isSkinnedMesh){skins++;if(o.geometry!==v.geometry||o.skeleton!==v.skin)broken++;}if(o.material!==v.material)broken++;}return {replaced,skins,broken,info:window.testTemple.renderer.info.render}});
+console.log('CHECK',check);assert.ok(check.replaced>40);assert.ok(check.skins>0);assert.equal(check.broken,0);
+const shots=[['法堂', [37,16,49],[0,6,0]],['莲池许愿树',[-13,5.2,32.8],[-29,4.2,46.5]],['问心席',[17.1,2.3,23],[14.1,1,19.4]]];
+for(const on of [false,true]){await toggle(on);for(const [name,position,target] of shots){let img=await page.evaluate(({position,target})=>{let w=window.testTemple,c=w.camera.clone();c.position.fromArray(position);c.lookAt(...target);c.updateMatrixWorld();w.renderer.render(w.scene,c);return w.renderer.domElement.toDataURL('image/png').split(',')[1];},{position,target});fs.mkdirSync('tools/refinement/screenshots',{recursive:true});fs.writeFileSync(`tools/refinement/screenshots/${name}-${on?'精修':'原版'}.png`,Buffer.from(img,'base64'));}}
+await page.evaluate(async()=>{const {registerRefinementScene}=await import('/refinement/refinement.js');const source=[...window.originals.keys()].find(o=>o.geometry.userData.refinedSource);window.cloneSource=source;window.cloneProbe=source.clone();window.cloneProbe.material=source.material.clone();const auxiliary=new window.testTemple.scene.constructor();auxiliary.add(window.cloneProbe);window.unregisterProbe=registerRefinementScene(auxiliary);});
+await toggle(false);const restored=await page.evaluate(()=>{let bad=[];for(const [o,v] of window.originals){if(o.geometry!==v.geometry)bad.push(o.name+' geometry');[o.material].flat().forEach((m,i)=>{if(m.roughness!==v.roughness[i])bad.push(o.name+' material')});}return bad});assert.deepEqual(restored,[]);
+assert.ok(await page.evaluate(()=>window.cloneProbe.geometry===window.originals.get(window.cloneSource).geometry && window.cloneProbe.material.roughness===window.originals.get(window.cloneSource).roughness[0]));await page.evaluate(()=>window.unregisterProbe());
+await toggle(true);
+await page.locator('#game-world canvas').focus();const before=await page.evaluate(()=>window.testTemple.self.group.position.toArray());await page.keyboard.down('d');await page.waitForTimeout(600);await page.keyboard.up('d');const after=await page.evaluate(()=>window.testTemple.self.group.position.toArray());assert.ok(Math.hypot(...before.map((v,i)=>v-after[i]))>0.1);console.log('WALK',before,after);
+assert.deepEqual(errors,[]);fs.writeFileSync('tools/refinement/smoke-results.json',JSON.stringify({check,restored,errors,walk:{before,after}},null,2));console.log('PASS');
+}finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1});

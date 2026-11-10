@@ -1,0 +1,86 @@
+/* 赛博산사 mobile chrome polish (2026-11-04). Loaded after game CSS. */
+:root{--cs-bottom-clear:calc(env(safe-area-inset-bottom,0px) + 92px)}
+
+/* Controls hint: only shown once as a short toast (see cyber-mobile-ui.js). */
+.game-hint[data-essential="false"]{opacity:0!important;visibility:hidden;transition:opacity .6s,visibility 0s .6s}
+body.cs-hint-once .game-hint[data-essential="false"]{opacity:1!important;visibility:visible;transition:opacity .4s}
+.game-hint[data-essential="false"]{padding:7px 14px;border-radius:999px;background:#1d2a23b8;width:max-content;max-width:calc(100vw - 32px)}
+
+/* Moktak (added action) */
+.game-modes .liquid-nav-source>#cs-moktak{position:relative}
+.cs-merit-pop{position:absolute;left:50%;top:-6px;transform:translate(-50%,0);font-size:12px;font-weight:650;color:#fff0c8;text-shadow:0 1px 6px #06130dcc;pointer-events:none;white-space:nowrap;animation:cs-merit .9s ease-out forwards}
+@keyframes cs-merit{0%{opacity:0;transform:translate(-50%,4px)}20%{opacity:1}100%{opacity:0;transform:translate(-50%,-26px)}}
+#cs-moktak.is-tok svg{animation:cs-tok .18s ease-out}
+@keyframes cs-tok{50%{transform:scale(.88) rotate(-6deg)}}
+
+/* Bottom action labels never overflow (en/es/pt) */
+.game-modes .liquid-nav-source>button>span:not(.dance-symbol):not(.cs-merit-pop){display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* Recent offerings float: always above the bottom bar */
+#cyber-incense-float{left:max(12px,env(safe-area-inset-left))!important;bottom:var(--cs-bottom-clear)!important;transition:opacity .6s}
+#cyber-incense-float>div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#cyber-incense-float.cs-faded{opacity:0}
+
+/* Mobile settings entry for language / sister sites (injected into settings dialog) */
+.cs-net-row{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:46px;margin:6px 0 2px;padding:0 14px;border:1px solid #8a806840;border-radius:12px;background:transparent;color:inherit;font:inherit;font-size:14px;cursor:pointer}
+.cs-net-row span:last-child{opacity:.6}
+.cs-occ{display:none}
+
+@media (max-width:480px){
+  .game-header{flex-wrap:nowrap!important;align-items:center!important;gap:8px!important;top:max(10px,env(safe-area-inset-top))!important;left:max(10px,env(safe-area-inset-left))!important;right:max(10px,env(safe-area-inset-right))!important}
+
+  /* Left: one pill = exit | room ˅ | occupancy */
+  .game-entry-tools{flex:0 1 auto!important;flex-basis:auto!important;min-width:0;height:50px;padding:3px!important;gap:0!important;border:1px solid #effaff38;border-radius:28px;background:#27372f;box-shadow:0 6px 20px #05150e18,inset 0 1px #ffffff38}
+  .game-entry-tools>#game-exit,.game-entry-tools>#game-room{border:0!important;background:transparent!important;box-shadow:none!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  .game-entry-tools>#game-exit{width:42px;height:42px;flex:0 0 42px}
+  .game-entry-tools>#game-room{min-height:42px!important;height:42px;padding:0 6px 0 4px!important;border-left:1px solid #ffffff2e!important;border-radius:0!important;min-width:0}
+  .game-entry-tools>#game-room>svg,.game-entry-tools>#game-room>span{display:none!important}
+  .game-entry-tools>#game-room small{display:inline-flex!important;margin:0!important;padding:0 0 0 6px!important;border:0!important;font-size:15px!important;font-weight:650;letter-spacing:.01em;color:#fbfaf2;overflow:hidden;text-overflow:ellipsis}
+  .game-entry-tools #game-room-number{font-size:14px!important;font-weight:500;opacity:.9}
+  .cs-occ{display:inline-flex;align-items:center;gap:4px;height:42px;padding:0 12px 0 10px;border:0;border-left:1px solid #ffffff2e;background:transparent;color:#f4f6ee;font:inherit;font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap;cursor:pointer;pointer-events:auto}
+  .cs-occ svg{width:16px;height:16px;opacity:.85}
+
+  /* Right: one pill = offering | mute | settings */
+  .game-tools{flex:0 0 auto!important;margin-left:auto!important}
+  .game-tools .liquid-nav-source>#game-people,
+  .game-tools #cyber-network-settings-btn{display:none!important}
+  .game-tools #cyber-network-settings-root{flex:0 0 0!important;width:0!important;min-width:0!important;margin:0!important;padding:0!important;border:0!important;order:9}
+  .game-tools .liquid-nav-source>#game-support{order:1}
+  .game-tools .liquid-nav-source>#game-sound{order:2}
+  .game-tools .liquid-nav-source>#game-settings{order:3}
+  .game-tools .liquid-nav-source>.tool{width:42px!important;min-width:42px!important}
+  .game-tools .liquid-nav-lens{display:none!important}
+
+  /* 염불 듣기 small pill under right pill */
+  .game-context{top:calc(max(10px,env(safe-area-inset-top)) + 58px)!important}
+  .chant-invite,.chant-banner{min-height:36px!important;padding:6px 14px!important;font-size:13px!important}
+
+  /* Bottom bar: 4 even actions, safe-area aware */
+  .game-bottom{width:calc(100% - 24px)!important;max-width:440px;bottom:max(10px,calc(env(safe-area-inset-bottom,0px) + 6px))!important}
+  .game-modes .liquid-nav-source>button{flex:1 1 0!important;min-width:0!important;padding:5px 2px!important}
+  .game-modes .liquid-nav-source>button>span{font-size:12px}
+
+  #cyber-incense-float{max-width:calc(100vw - 24px)!important}
+  #cyber-incense-float>div{max-width:calc(100vw - 24px)}
+  .game-toast{max-width:calc(100vw - 32px)}
+}
+@media (max-width:360px){
+  .game-entry-tools>#game-room small{font-size:14px!important}
+  .cs-occ{padding:0 9px 0 8px}
+  .game-modes .liquid-nav-source>button>span{font-size:11px}
+}
+
+/* Donation reminder card (cyber-donate-remind.js) */
+.cs-remind{position:fixed;z-index:10040;left:50%;bottom:var(--cs-bottom-clear);transform:translate(-50%,12px);width:min(380px,calc(100vw - 24px));padding:18px 18px 14px;border:1px solid #e3d3b340;border-radius:20px;background:#f5f1e8f5;color:#3d3f36;box-shadow:0 14px 40px #00000040;font:14px/1.55 "Sansa Quiet UI",system-ui,-apple-system,sans-serif;opacity:0;transition:opacity .35s,transform .35s}
+.cs-remind.is-open{opacity:1;transform:translate(-50%,0)}
+.cs-remind h3{margin:0 0 6px;font-size:16px;font-weight:650;letter-spacing:.01em}
+.cs-remind p{margin:0 0 14px;color:#55584b}
+.cs-remind-actions{display:flex;flex-direction:column;gap:8px}
+.cs-remind-actions button,.cs-remind-actions a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 14px;border-radius:12px;border:1px solid #8a806855;background:transparent;color:#3d3f36;font:inherit;font-weight:600;text-decoration:none;cursor:pointer;text-align:center}
+.cs-remind-actions .cs-primary{background:#3d4638;color:#f5f1e8;border-color:#3d4638}
+.cs-remind-actions .cs-bmc{background:#ffdd00;border-color:#e6c600;color:#1f1f1f}
+.cs-remind-actions .cs-later{border:0;min-height:36px;font-weight:500;color:#6b6e60}
+.cs-remind-close{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;border-radius:50%;background:transparent;color:#6b6e60;font-size:20px;line-height:1;cursor:pointer}
+@media (min-width:700px){.cs-remind{left:auto;right:24px;transform:translate(0,12px)}.cs-remind.is-open{transform:none}}
+@media (prefers-reduced-motion:reduce){.cs-remind,.cs-merit-pop,#cs-moktak.is-tok svg{transition:none;animation:none}}
+.game-header:has(#cyber-network-settings-panel.is-open){z-index:6!important}

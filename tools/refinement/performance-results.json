@@ -1,0 +1,20 @@
+[
+  {
+    "enabled": false,
+    "medianCPUms": 1.699999988079071,
+    "p95CPUms": 2.699999988079071,
+    "calls": 147,
+    "triangles": 1450878,
+    "geometries": 274,
+    "textures": 49
+  },
+  {
+    "enabled": true,
+    "medianCPUms": 1.5,
+    "p95CPUms": 2.5,
+    "calls": 147,
+    "triangles": 1466262,
+    "geometries": 300,
+    "textures": 51
+  }
+]

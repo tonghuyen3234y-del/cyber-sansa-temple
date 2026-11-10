@@ -1,0 +1,2190 @@
+{
+  "version": 1,
+  "meshes": {
+    "96b5f0b3-11e179d7": {
+      "name": "continuous-warm-timber-ceiling",
+      "width": 0.018,
+      "sourceVertices": 3196,
+      "sourceTriangles": 5888,
+      "triangles": 6544,
+      "attributes": {
+        "position": {
+          "offset": 0,
+          "length": 12276,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 49104,
+          "length": 12276,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 98208,
+          "length": 8184,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 130944,
+          "length": 12276,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 180048,
+        "length": 19632
+      }
+    },
+    "5b26bdd2-cda9b72c": {
+      "name": "restrained cinnabar pigment",
+      "width": 0.018,
+      "sourceVertices": 23400,
+      "sourceTriangles": 7800,
+      "triangles": 7800,
+      "attributes": {
+        "position": {
+          "offset": 258576,
+          "length": 11856,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 306000,
+          "length": 11856,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 353424,
+          "length": 7904,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 385040,
+          "length": 11856,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 432464,
+        "length": 23400
+      }
+    },
+    "2bbb6146-f4bb2718": {
+      "name": "restrained teal mineral pigment",
+      "width": 0.018,
+      "sourceVertices": 14556,
+      "sourceTriangles": 4852,
+      "triangles": 16116,
+      "attributes": {
+        "position": {
+          "offset": 526064,
+          "length": 34602,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 664472,
+          "length": 34602,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 802880,
+          "length": 23068,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 895152,
+          "length": 34602,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 1033560,
+        "length": 48348
+      }
+    },
+    "937abc4b-1f0a7899": {
+      "name": "aged bronze offering details",
+      "width": 0.018,
+      "sourceVertices": 7416,
+      "sourceTriangles": 12272,
+      "triangles": 15736,
+      "attributes": {
+        "position": {
+          "offset": 1226952,
+          "length": 26664,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 1333608,
+          "length": 26664,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 1440264,
+          "length": 17776,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 1511368,
+          "length": 26664,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 1618024,
+        "length": 47208
+      }
+    },
+    "6601b74-764c3ee4": {
+      "name": "warm brass details",
+      "width": 0.003250000048428774,
+      "sourceVertices": 64,
+      "sourceTriangles": 40,
+      "triangles": 160,
+      "attributes": {
+        "position": {
+          "offset": 1806856,
+          "length": 369,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 1808332,
+          "length": 369,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 1809808,
+          "length": 246,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 1810792,
+          "length": 369,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 1812268,
+        "length": 480
+      }
+    },
+    "e20c65a1-319968eb": {
+      "name": "weathered mountain flagstone paving",
+      "width": 0.008404523134231567,
+      "sourceVertices": 1056,
+      "sourceTriangles": 1452,
+      "triangles": 10692,
+      "attributes": {
+        "position": {
+          "offset": 1814188,
+          "length": 23364,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 1907644,
+          "length": 23364,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 2001100,
+          "length": 15576,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 2063404,
+          "length": 23364,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 2156860,
+        "length": 32076
+      }
+    },
+    "4f13cc7a-eec61c50": {
+      "name": "irregular worn path stones",
+      "width": 0.018,
+      "sourceVertices": 4129,
+      "sourceTriangles": 1911,
+      "triangles": 10229,
+      "attributes": {
+        "position": {
+          "offset": 2285164,
+          "length": 21480,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 2371084,
+          "length": 21480,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 2457004,
+          "length": 14320,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 2514284,
+          "length": 21480,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 2600204,
+        "length": 30687
+      }
+    },
+    "3625f902-ca35f0e0": {
+      "name": "warm brass details",
+      "width": 0.018,
+      "sourceVertices": 1604,
+      "sourceTriangles": 1904,
+      "triangles": 4567,
+      "attributes": {
+        "position": {
+          "offset": 2722952,
+          "length": 11049,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 2767148,
+          "length": 11049,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 2811344,
+          "length": 7366,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 2840808,
+          "length": 11049,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 2885004,
+        "length": 13701
+      }
+    },
+    "d7dc3d9d-d4c2c93f": {
+      "name": "quiet charcoal mountain gate roof",
+      "width": 0.018,
+      "sourceVertices": 978,
+      "sourceTriangles": 832,
+      "triangles": 3055,
+      "attributes": {
+        "position": {
+          "offset": 2939808,
+          "length": 8895,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 2975388,
+          "length": 8895,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 3010968,
+          "length": 5930,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 3034688,
+          "length": 8895,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 3070268,
+        "length": 9165
+      }
+    },
+    "622a69b-b0fe8db1": {
+      "name": "weathered mountain flagstone paving",
+      "width": 0.005107817649841309,
+      "sourceVertices": 1968,
+      "sourceTriangles": 2706,
+      "triangles": 20202,
+      "attributes": {
+        "position": {
+          "offset": 3106928,
+          "length": 44058,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 3283160,
+          "length": 44058,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 3459392,
+          "length": 29372,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 3576880,
+          "length": 44058,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 3753112,
+        "length": 60606
+      }
+    },
+    "89e8843f-39dc845": {
+      "name": "irregular worn path stones",
+      "width": 0.018,
+      "sourceVertices": 1843,
+      "sourceTriangles": 1929,
+      "triangles": 14077,
+      "attributes": {
+        "position": {
+          "offset": 3995536,
+          "length": 30576,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 4117840,
+          "length": 30576,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 4240144,
+          "length": 20384,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 4321680,
+          "length": 30576,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 4443984,
+        "length": 42231
+      }
+    },
+    "3204800-e642bc04": {
+      "name": "warm brass details",
+      "width": 0.018,
+      "sourceVertices": 1826,
+      "sourceTriangles": 2272,
+      "triangles": 4576,
+      "attributes": {
+        "position": {
+          "offset": 4612908,
+          "length": 10821,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 4656192,
+          "length": 10821,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 4699476,
+          "length": 7214,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 4728332,
+          "length": 10821,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 4771616,
+        "length": 13728
+      }
+    },
+    "41f0d24f-597a6d6b": {
+      "name": "quiet charcoal mountain gate roof",
+      "width": 0.018,
+      "sourceVertices": 728,
+      "sourceTriangles": 448,
+      "triangles": 3136,
+      "attributes": {
+        "position": {
+          "offset": 4826528,
+          "length": 8784,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 4861664,
+          "length": 8784,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 4896800,
+          "length": 5856,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 4920224,
+          "length": 8784,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 4955360,
+        "length": 9408
+      }
+    },
+    "527b818d-4d778fd": {
+      "name": "weathered mountain flagstone paving",
+      "width": 0.004330609440803528,
+      "sourceVertices": 1344,
+      "sourceTriangles": 1848,
+      "triangles": 13723,
+      "attributes": {
+        "position": {
+          "offset": 4992992,
+          "length": 29706,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 5111816,
+          "length": 29706,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 5230640,
+          "length": 19804,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 5309856,
+          "length": 29706,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 5428680,
+        "length": 41169
+      }
+    },
+    "ea81183c-cab63fd2": {
+      "name": "irregular worn path stones",
+      "width": 0.018,
+      "sourceVertices": 10207,
+      "sourceTriangles": 4176,
+      "triangles": 15470,
+      "attributes": {
+        "position": {
+          "offset": 5593356,
+          "length": 42786,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 5764500,
+          "length": 42786,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 5935644,
+          "length": 28524,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6049740,
+          "length": 42786,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6220884,
+        "length": 46410
+      }
+    },
+    "857305ca-2d4405d4": {
+      "name": "warm brass details",
+      "width": 0.018,
+      "sourceVertices": 1877,
+      "sourceTriangles": 2288,
+      "triangles": 3643,
+      "attributes": {
+        "position": {
+          "offset": 6406524,
+          "length": 8958,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6442356,
+          "length": 8958,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6478188,
+          "length": 5972,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6502076,
+          "length": 8958,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6537908,
+        "length": 10929
+      }
+    },
+    "d6f55984-91240a00": {
+      "name": "weathered mountain flagstone paving",
+      "width": 0.006868199706077576,
+      "sourceVertices": 144,
+      "sourceTriangles": 198,
+      "triangles": 1458,
+      "attributes": {
+        "position": {
+          "offset": 6581624,
+          "length": 3246,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6594608,
+          "length": 3246,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6607592,
+          "length": 2164,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6616248,
+          "length": 3246,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6629232,
+        "length": 4374
+      }
+    },
+    "ef71b517-dfe5501b": {
+      "name": "irregular worn path stones",
+      "width": 0.008340263962745667,
+      "sourceVertices": 42,
+      "sourceTriangles": 66,
+      "triangles": 362,
+      "attributes": {
+        "position": {
+          "offset": 6646728,
+          "length": 855,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6650148,
+          "length": 855,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6653568,
+          "length": 570,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6655848,
+          "length": 855,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6659268,
+        "length": 1086
+      }
+    },
+    "ba0a8d6d-f83c4431": {
+      "name": "irregular worn path stones",
+      "width": 0.008320675492286683,
+      "sourceVertices": 42,
+      "sourceTriangles": 66,
+      "triangles": 526,
+      "attributes": {
+        "position": {
+          "offset": 6663612,
+          "length": 1113,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6668064,
+          "length": 1113,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6672516,
+          "length": 742,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6675484,
+          "length": 1113,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6679936,
+        "length": 1578
+      }
+    },
+    "b686ba15-9ba4ff7": {
+      "name": "warm brass details",
+      "width": 0.018,
+      "sourceVertices": 492,
+      "sourceTriangles": 608,
+      "triangles": 1361,
+      "attributes": {
+        "position": {
+          "offset": 6686248,
+          "length": 3381,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6699772,
+          "length": 3381,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6713296,
+          "length": 2254,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6722312,
+          "length": 3381,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6735836,
+        "length": 4083
+      }
+    },
+    "a4b23a5a-3b34342e": {
+      "name": "warm brass details",
+      "width": 0.018,
+      "sourceVertices": 1048,
+      "sourceTriangles": 1256,
+      "triangles": 2272,
+      "attributes": {
+        "position": {
+          "offset": 6752168,
+          "length": 5583,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6774500,
+          "length": 5583,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6796832,
+          "length": 3722,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6811720,
+          "length": 5583,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6834052,
+        "length": 6816
+      }
+    },
+    "3222f6ea-b7fc2584": {
+      "name": "muted jade party trim",
+      "width": 0.012999801635742188,
+      "sourceVertices": 104,
+      "sourceTriangles": 64,
+      "triangles": 288,
+      "attributes": {
+        "position": {
+          "offset": 6861316,
+          "length": 1062,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6865564,
+          "length": 1062,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6869812,
+          "length": 708,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6872644,
+          "length": 1062,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6876892,
+        "length": 864
+      }
+    },
+    "122d4702-afde43e2": {
+      "name": "warm brass details",
+      "width": 0.006630325317382813,
+      "sourceVertices": 492,
+      "sourceTriangles": 608,
+      "triangles": 1257,
+      "attributes": {
+        "position": {
+          "offset": 6880348,
+          "length": 3078,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6892660,
+          "length": 3078,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6904972,
+          "length": 2052,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6913180,
+          "length": 3078,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6925492,
+        "length": 3771
+      }
+    },
+    "c2d20772-da305384": {
+      "name": "muted jade party trim",
+      "width": 0.012999801635742188,
+      "sourceVertices": 104,
+      "sourceTriangles": 64,
+      "triangles": 288,
+      "attributes": {
+        "position": {
+          "offset": 6940576,
+          "length": 1068,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6944848,
+          "length": 1068,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6949120,
+          "length": 712,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6951968,
+          "length": 1068,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6956240,
+        "length": 864
+      }
+    },
+    "39b36ce9-e19f1ddd": {
+      "name": "warm brass details",
+      "width": 0.006305999755859376,
+      "sourceVertices": 246,
+      "sourceTriangles": 304,
+      "triangles": 552,
+      "attributes": {
+        "position": {
+          "offset": 6959696,
+          "length": 1368,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6965168,
+          "length": 1368,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 6970640,
+          "length": 912,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 6974288,
+          "length": 1368,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 6979760,
+        "length": 1656
+      }
+    },
+    "1ccd273a-f9b2fb70": {
+      "name": "warm brass details",
+      "width": 0.018,
+      "sourceVertices": 556,
+      "sourceTriangles": 648,
+      "triangles": 1322,
+      "attributes": {
+        "position": {
+          "offset": 6986384,
+          "length": 3351,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 6999788,
+          "length": 3351,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7013192,
+          "length": 2234,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 7022128,
+          "length": 3351,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 7035532,
+        "length": 3966
+      }
+    },
+    "6d37de1e-259f80a4": {
+      "name": "warm brass details",
+      "width": 0.004549999535083771,
+      "sourceVertices": 296,
+      "sourceTriangles": 192,
+      "triangles": 276,
+      "attributes": {
+        "position": {
+          "offset": 7051396,
+          "length": 1101,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7055800,
+          "length": 1101,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7060204,
+          "length": 734,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 7063140,
+          "length": 1101,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 7067544,
+        "length": 828
+      }
+    },
+    "e9fd5413-6f512a2d": {
+      "name": "muted jade party trim",
+      "width": 0.018,
+      "sourceVertices": 1868,
+      "sourceTriangles": 700,
+      "triangles": 700,
+      "attributes": {
+        "position": {
+          "offset": 7070856,
+          "length": 5394,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7092432,
+          "length": 5394,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7114008,
+          "length": 3596,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 7128392,
+          "length": 5394,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 7149968,
+        "length": 2100
+      }
+    },
+    "6c2f0296-fe4ececc": {
+      "name": "DJ equipment charcoal",
+      "width": 0.018,
+      "sourceVertices": 1040,
+      "sourceTriangles": 472,
+      "triangles": 526,
+      "attributes": {
+        "position": {
+          "offset": 7158368,
+          "length": 3009,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7170404,
+          "length": 3009,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7182440,
+          "length": 2006,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 7190464,
+          "length": 3009,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 7202500,
+        "length": 1578
+      }
+    },
+    "1dbf496e-d7b961ac": {
+      "name": "muted jade party trim",
+      "width": 0.005199871063232422,
+      "sourceVertices": 248,
+      "sourceTriangles": 160,
+      "triangles": 179,
+      "attributes": {
+        "position": {
+          "offset": 7208812,
+          "length": 753,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7211824,
+          "length": 753,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7214836,
+          "length": 502,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 7216844,
+          "length": 753,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 7219856,
+        "length": 537
+      }
+    },
+    "e882645a-535a8000": {
+      "name": "DJ equipment charcoal",
+      "width": 0.018,
+      "sourceVertices": 324,
+      "sourceTriangles": 108,
+      "triangles": 108,
+      "attributes": {
+        "position": {
+          "offset": 7222004,
+          "length": 954,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7225820,
+          "length": 954,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7229636,
+          "length": 636,
+          "itemSize": 2
+        },
+        "color": {
+          "offset": 7232180,
+          "length": 954,
+          "itemSize": 3
+        }
+      },
+      "index": {
+        "offset": 7235996,
+        "length": 324
+      }
+    },
+    "fe1f7088-e4f3db2c": {
+      "name": "DJ equipment charcoal",
+      "width": 0.0030397491902112964,
+      "sourceVertices": 175,
+      "sourceTriangles": 288,
+      "triangles": 1728,
+      "attributes": {
+        "position": {
+          "offset": 7237292,
+          "length": 4806,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7256516,
+          "length": 4806,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7275740,
+          "length": 3204,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7288556,
+        "length": 5184
+      }
+    },
+    "b6855db2-a8991ffc": {
+      "name": "DJ equipment charcoal",
+      "width": 0.00927280068397522,
+      "sourceVertices": 99,
+      "sourceTriangles": 140,
+      "triangles": 840,
+      "attributes": {
+        "position": {
+          "offset": 7309292,
+          "length": 2529,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7319408,
+          "length": 2529,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7329524,
+          "length": 1686,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7336268,
+        "length": 2520
+      }
+    },
+    "b606a568-1eb6dec4": {
+      "name": "问心席",
+      "width": 0.00910000003874302,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7346348,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7347968,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7349588,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7350668,
+        "length": 564
+      }
+    },
+    "595dfd08-71f9f0c4": {
+      "name": "问心席",
+      "width": 0.005525000058114529,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7352924,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7354544,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7356164,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7357244,
+        "length": 564
+      }
+    },
+    "1e34d048-c7d53fc4": {
+      "name": "问心席",
+      "width": 0.007149999961256981,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7359500,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7361120,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7362740,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7363820,
+        "length": 564
+      }
+    },
+    "1c281268-102138c4": {
+      "name": "问心席",
+      "width": 0.00910000003874302,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7366076,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7367696,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7369316,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7370396,
+        "length": 564
+      }
+    },
+    "64ac16c8-66848ac4": {
+      "name": "问心席",
+      "width": 0.009750000387430192,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7372652,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7374272,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7375892,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7376972,
+        "length": 564
+      }
+    },
+    "7a31b348-9ae8eec4": {
+      "name": "问心席",
+      "width": 0.0029250001162290573,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7379228,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7380848,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7382468,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7383548,
+        "length": 564
+      }
+    },
+    "bf394578-1dc2cc4": {
+      "name": "问心席",
+      "width": 0.015599999651312828,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7385804,
+          "length": 411,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7387448,
+          "length": 411,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7389092,
+          "length": 274,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7390188,
+        "length": 564
+      }
+    },
+    "91891548-e8d92cc4": {
+      "name": "问心席",
+      "width": 0.0029250001162290573,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7392444,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7394064,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7395684,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7396764,
+        "length": 564
+      }
+    },
+    "3a22ebf8-6a8785c4": {
+      "name": "问心席",
+      "width": 0.0017550000455230474,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7399020,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7400640,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7402260,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7403340,
+        "length": 564
+      }
+    },
+    "9f5a6cfd-3671d46f": {
+      "name": "问心席",
+      "width": 0.007149999961256981,
+      "sourceVertices": 148,
+      "sourceTriangles": 96,
+      "triangles": 384,
+      "attributes": {
+        "position": {
+          "offset": 7405596,
+          "length": 744,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7408572,
+          "length": 744,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7411548,
+          "length": 496,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7413532,
+        "length": 1152
+      }
+    },
+    "fb972445-a0c1426f": {
+      "name": "问心席",
+      "width": 0.0007800000067800283,
+      "sourceVertices": 148,
+      "sourceTriangles": 96,
+      "triangles": 384,
+      "attributes": {
+        "position": {
+          "offset": 7418140,
+          "length": 744,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7421116,
+          "length": 744,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7424092,
+          "length": 496,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7426076,
+        "length": 1152
+      }
+    },
+    "c12056f8-db5bf6c4": {
+      "name": "问心席",
+      "width": 0.0007800000067800283,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7430684,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7432304,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7433924,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7435004,
+        "length": 564
+      }
+    },
+    "a022e3a4-164e26b2": {
+      "name": "知客僧",
+      "width": 0.018,
+      "sourceVertices": 221,
+      "sourceTriangles": 352,
+      "triangles": 2112,
+      "attributes": {
+        "position": {
+          "offset": 7437260,
+          "length": 6117,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7461728,
+          "length": 6117,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7486196,
+          "length": 4078,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7502508,
+        "length": 6336
+      }
+    },
+    "b501cd55-abd6266f": {
+      "name": "竹制签筒",
+      "width": 0.004029999934136868,
+      "sourceVertices": 148,
+      "sourceTriangles": 96,
+      "triangles": 384,
+      "attributes": {
+        "position": {
+          "offset": 7527852,
+          "length": 744,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7530828,
+          "length": 744,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7533804,
+          "length": 496,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7535788,
+        "length": 1152
+      }
+    },
+    "de43caf1-2bafbd6f": {
+      "name": "竹制签筒",
+      "width": 0.001625000024214387,
+      "sourceVertices": 148,
+      "sourceTriangles": 96,
+      "triangles": 384,
+      "attributes": {
+        "position": {
+          "offset": 7540396,
+          "length": 744,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7543372,
+          "length": 744,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7546348,
+          "length": 496,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7548332,
+        "length": 1152
+      }
+    },
+    "4ee08c98-110089c4": {
+      "name": "竹制签筒",
+      "width": 0.0012349999602884055,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7552940,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7554560,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7556180,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7557260,
+        "length": 564
+      }
+    },
+    "4b50ba88-5c7fc6c4": {
+      "name": "竹制签筒",
+      "width": 0.0012349999602884055,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7559516,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7561136,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7562756,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7563836,
+        "length": 564
+      }
+    },
+    "587f2438-f82a68c4": {
+      "name": "竹制签筒",
+      "width": 0.0012349999602884055,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7566092,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7567712,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7569332,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7570412,
+        "length": 564
+      }
+    },
+    "d0289328-5a829cc4": {
+      "name": "竹制签筒",
+      "width": 0.0012349999602884055,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7572668,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7574288,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7575908,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7576988,
+        "length": 564
+      }
+    },
+    "55ff12b5-912b25f7": {
+      "name": "筊杯",
+      "width": 0.018,
+      "sourceVertices": 273,
+      "sourceTriangles": 460,
+      "triangles": 2760,
+      "attributes": {
+        "position": {
+          "offset": 7579244,
+          "length": 7797,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7610432,
+          "length": 7797,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7641620,
+          "length": 5198,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7662412,
+        "length": 8280
+      }
+    },
+    "dae0983d-917add6f": {
+      "name": "筊杯",
+      "width": 0.0006499999854713679,
+      "sourceVertices": 148,
+      "sourceTriangles": 96,
+      "triangles": 384,
+      "attributes": {
+        "position": {
+          "offset": 7695532,
+          "length": 744,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7698508,
+          "length": 744,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7701484,
+          "length": 496,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7703468,
+        "length": 1152
+      }
+    },
+    "44257e48-c8c67fc4": {
+      "name": "问心席",
+      "width": 0.0014950000029057265,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7708076,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7709696,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7711316,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7712396,
+        "length": 564
+      }
+    },
+    "79707c18-5c574c4": {
+      "name": "BoxGeometry",
+      "width": 0.0015600000135600567,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7714652,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7716272,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7717892,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7718972,
+        "length": 564
+      }
+    },
+    "4c204f35-61141bbf": {
+      "name": "CylinderGeometry",
+      "width": 0.0013509995862841606,
+      "sourceVertices": 40,
+      "sourceTriangles": 24,
+      "triangles": 288,
+      "attributes": {
+        "position": {
+          "offset": 7721228,
+          "length": 564,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7723484,
+          "length": 564,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7725740,
+          "length": 376,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7727244,
+        "length": 864
+      }
+    },
+    "29232805-b3113245": {
+      "name": "SphereGeometry",
+      "width": 0.0033800000697374343,
+      "sourceVertices": 63,
+      "sourceTriangles": 80,
+      "triangles": 480,
+      "attributes": {
+        "position": {
+          "offset": 7730700,
+          "length": 1446,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7736484,
+          "length": 1446,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7742268,
+          "length": 964,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7746124,
+        "length": 1440
+      }
+    },
+    "e5755c48-7929e6c4": {
+      "name": "BoxGeometry",
+      "width": 0.0023399998992681506,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7751884,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7753504,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7755124,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7756204,
+        "length": 564
+      }
+    },
+    "4ff9e8c8-6fa4ec4": {
+      "name": "BoxGeometry",
+      "width": 0.00910000003874302,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7758460,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7760080,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7761700,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7762780,
+        "length": 564
+      }
+    },
+    "4f504768-44fc4c4": {
+      "name": "BoxGeometry",
+      "width": 0.018,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7765036,
+          "length": 408,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7766668,
+          "length": 408,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7768300,
+          "length": 272,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7769388,
+        "length": 564
+      }
+    },
+    "14b6cea8-f06e54c4": {
+      "name": "BoxGeometry",
+      "width": 0.005199999883770943,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7771644,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7773264,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7774884,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7775964,
+        "length": 564
+      }
+    },
+    "e68b2da8-b911dcc4": {
+      "name": "BoxGeometry",
+      "width": 0.00910000003874302,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7778220,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7779840,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7781460,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7782540,
+        "length": 564
+      }
+    },
+    "22de5f1d-ba9020ef": {
+      "name": "CylinderGeometry",
+      "width": 0.013000000193715095,
+      "sourceVertices": 88,
+      "sourceTriangles": 56,
+      "triangles": 224,
+      "attributes": {
+        "position": {
+          "offset": 7784796,
+          "length": 444,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7786572,
+          "length": 444,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7788348,
+          "length": 296,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7789532,
+        "length": 672
+      }
+    },
+    "22e9a751-b9f74d87": {
+      "name": "CylinderGeometry",
+      "width": 0.003250000048428774,
+      "sourceVertices": 76,
+      "sourceTriangles": 48,
+      "triangles": 192,
+      "attributes": {
+        "position": {
+          "offset": 7792220,
+          "length": 384,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7793756,
+          "length": 384,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7795292,
+          "length": 256,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7796316,
+        "length": 576
+      }
+    },
+    "fbaf6637-467f69e9": {
+      "name": "CylinderGeometry",
+      "width": 0.0009406888578087092,
+      "sourceVertices": 34,
+      "sourceTriangles": 20,
+      "triangles": 240,
+      "attributes": {
+        "position": {
+          "offset": 7798620,
+          "length": 474,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7800516,
+          "length": 474,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7802412,
+          "length": 316,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7803676,
+        "length": 720
+      }
+    },
+    "409b65a2-1c8332fa": {
+      "name": "SphereGeometry",
+      "width": 0.001499023223295808,
+      "sourceVertices": 42,
+      "sourceTriangles": 48,
+      "triangles": 288,
+      "attributes": {
+        "position": {
+          "offset": 7806556,
+          "length": 903,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7810168,
+          "length": 903,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7813780,
+          "length": 602,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7816188,
+        "length": 864
+      }
+    },
+    "7552f0b-b1b81469": {
+      "name": "CylinderGeometry",
+      "width": 0.0009406888578087092,
+      "sourceVertices": 34,
+      "sourceTriangles": 20,
+      "triangles": 240,
+      "attributes": {
+        "position": {
+          "offset": 7819644,
+          "length": 474,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7821540,
+          "length": 474,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7823436,
+          "length": 316,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7824700,
+        "length": 720
+      }
+    },
+    "491415cb-85d80069": {
+      "name": "CylinderGeometry",
+      "width": 0.0009406888578087092,
+      "sourceVertices": 34,
+      "sourceTriangles": 20,
+      "triangles": 240,
+      "attributes": {
+        "position": {
+          "offset": 7827580,
+          "length": 474,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7829476,
+          "length": 474,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7831372,
+          "length": 316,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7832636,
+        "length": 720
+      }
+    },
+    "6d61e488-5dacc0c4": {
+      "name": "BoxGeometry",
+      "width": 0.015599999651312828,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7835516,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7837136,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7838756,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7839836,
+        "length": 564
+      }
+    },
+    "dc134e48-77329c4": {
+      "name": "BoxGeometry",
+      "width": 0.010399999767541886,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7842092,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7843712,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7845332,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7846412,
+        "length": 564
+      }
+    },
+    "4ac9dca8-ed6d00c4": {
+      "name": "BoxGeometry",
+      "width": 0.00910000003874302,
+      "sourceVertices": 24,
+      "sourceTriangles": 12,
+      "triangles": 188,
+      "attributes": {
+        "position": {
+          "offset": 7848668,
+          "length": 405,
+          "itemSize": 3
+        },
+        "normal": {
+          "offset": 7850288,
+          "length": 405,
+          "itemSize": 3
+        },
+        "uv": {
+          "offset": 7851908,
+          "length": 270,
+          "itemSize": 2
+        }
+      },
+      "index": {
+        "offset": 7852988,
+        "length": 564
+      }
+    }
+  },
+  "stats": {
+    "sceneMeshes": 550,
+    "uniqueGeometries": 344,
+    "refinedGeometries": 72,
+    "sourceTriangles": 60456,
+    "refinedTriangles": 177265,
+    "bufferBytes": 7855244
+  },
+  "skipped": [
+    {
+      "key": "2915661a-3a036458",
+      "reason": "triangle budget"
+    }
+  ]
+}

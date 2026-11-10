@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "赛博山寺 / Cyber Sansa",
+  "short_name": "赛博山寺",
+  "description": "在线 3D 山寺 · 合掌、礼佛、念珠。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#20251f",
+  "theme_color": "#24251f",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

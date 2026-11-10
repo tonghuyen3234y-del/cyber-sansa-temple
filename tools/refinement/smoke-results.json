@@ -1,0 +1,28 @@
+{
+  "check": {
+    "replaced": 188,
+    "skins": 26,
+    "broken": 0,
+    "info": {
+      "frame": 97,
+      "calls": 97,
+      "triangles": 688530,
+      "points": 75,
+      "lines": 0
+    }
+  },
+  "restored": [],
+  "errors": [],
+  "walk": {
+    "before": [
+      0,
+      0,
+      18.8
+    ],
+    "after": [
+      0.8829768243695651,
+      0,
+      18.8
+    ]
+  }
+}

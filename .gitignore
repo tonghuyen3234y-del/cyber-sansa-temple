@@ -1,0 +1,22 @@
+node_modules/
+.DS_Store
+
+# Secrets: never commit real credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Reproducible Blender intermediates (regenerate with tools scripts)
+/tools/refinement/source/
+/tools/refinement/__pycache__/
+/tools/npc/__pycache__/
+
+# Local logs and scratch renders
+*.log
+/tmp/
+
+# NPC modelling experiments (work in progress, not part of the release)
+/tools/npc/
+/tools/npc-review/
